@@ -1,4 +1,6 @@
 {
+    "participants" : [
+        {
     "Name": "Abdulmalik Salawu",
     "Nickname": "SaintMalik",
     "Tech Stack": "Application Security",
@@ -6,7 +8,7 @@
     "Twitter Handle": "@saintmalik_",
     "GitHub Profile": "https://github.com/saintmalik",
     "Which niche do you like contributing too?": "Documentation for now👀"
-} 
+},
 {
     "Name": "Ogunmisi Oluwafemi",
     "Nickname": "OgunmisiM",
@@ -15,7 +17,7 @@
     "Twitter Handle": "@OgunmisiM",
     "GitHub Profile": "https://github.com/saintmalik",
     "Which niche do you like contributing too?": "Documentation/ A bit of frontend",
-}
+},
 {
     "Name": "Oguntuase Oluwasegun",
     "Nickname": "tuasegun",
@@ -24,7 +26,7 @@
     "Twitter Handle": "@tuasegun",
     "GitHub Profile": "https://github.com/Tuasegun",
     "Which niche do you like contributing too?": "Documentation and Frontend",
-}
+},
 {
     "Name": "Apole Samuel",
     "Nickname": "Samzzy",
@@ -33,7 +35,7 @@
     "Twitter Handle": "@ApoleSamuel",
     "GitHub Profile": "https://github.com/samzzy-blink",
     "Which niche do you like contributing too?": "Code for now"
-}
+},
 {
     "Name": "Adams Ahmed Ifeoluwa",
     "Nickname": "Harmedinol",
@@ -42,4 +44,15 @@
     "Twitter Handle": "@Harmedino5",
     "GitHub Profile": "https://github.com/Harmedino",
     "Which niche do you like contributing too?": "Code"
+},
+{
+    "Name": "Olawale Olanrewaju Segun",
+    "Nickname": "Larrick",
+    "Tech Stack": "fullstack",
+    "Experience Level in OSS": "Intermediate",
+    "Twitter Handle": "@Larrick121",
+    "GitHub Profile": "https://github.com/larrick12",
+    "Which niche do you like contributing too?": "Code"
+}
+  ]
 }
