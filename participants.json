@@ -1,6 +1,6 @@
 {
     "participants" : [
-        {
+{
     "Name": "Abdulmalik Salawu",
     "Nickname": "SaintMalik",
     "Tech Stack": "Application Security",
@@ -53,16 +53,19 @@
     "Twitter Handle": "@Larrick121",
     "GitHub Profile": "https://github.com/larrick12",
     "Which niche do you like contributing too?": "Code"
-}
-  ]
-}
-
+},
 {
-"Name": "Oluwaferanmi ADENIYI",
-"Nickname": "Victorayo",
-"Tech Stack": "Designer",
-"Experience Level in OSS": "Intermediate",
-"Twitter Handle": "@Feranmiayomikun",
-"GitHub Profile": "https://github.com/Victorayo",
-"Which niche do you like contributing too?": "Design"
+    "Name": "Oluwaferanmi ADENIYI",
+    "Nickname": "Victorayo",
+    "Tech Stack": "Designer",
+    "Experience Level in OSS": "Intermediate",
+    "Twitter Handle": "@Feranmiayomikun",
+    "GitHub Profile": "https://github.com/Victorayo",
+    "Which niche do you like contributing too?": "Design"
+}
+        
+        
+
+        
+  ]
 }
