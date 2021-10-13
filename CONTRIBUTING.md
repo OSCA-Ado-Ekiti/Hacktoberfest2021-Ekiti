@@ -2,7 +2,7 @@
 
 ![fork](https://user-images.githubusercontent.com/37118134/136855175-54c13cd2-a8fd-49f2-a56d-f4c04dfb3e90.jpg)
 
-2. when you are done forking it, create a branch of yours and make your cntributions.
+2. when you are done forking it, create a branch of yours.
 
 ![addbranch](https://user-images.githubusercontent.com/37118134/136855318-d1d393e9-d367-42e8-80d7-4e966ed52316.jpg)
 
