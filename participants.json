@@ -71,7 +71,7 @@
     "Twitter Handle": "NILL",
     "GitHub Profile": "https://github.com/JohnsonAkin",
     "Which niche do you like contributing too?": "Documentation🥴"
-},
+},  
 {
     "Name": "Adeshina Favourdgreat",
     "Nickname": "Greatness",
@@ -80,10 +80,16 @@
     "Twitter Handle": "@favour_adeshina",
     "GitHub Profile": "https://github.com/Favour-dgreat",
     "Which niche do you like contributing too?": "Code"
-} 
-        
-        
-
+},
+{
+    "Name": "Oni Faith Ayoola",
+    "Nickname": "Hyssop",
+    "Tech Stack": "UI/UX Design",
+    "Experience Level in OSS": "Intermediate",
+    "Twitter Handle": "@onifaithayoola",
+    "GitHub Profile": "https://github.com/onifaithayoola",
+    "Which niche do you like contributing too?": "Design"
+}     
         
   ]
 }
