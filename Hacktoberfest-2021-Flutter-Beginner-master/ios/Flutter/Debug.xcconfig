@@ -1,0 +1,4 @@
+#include "Generated.xcconfig"
+IS_APP_NAME = Flutter Debug
+IS_APP_VERSION = 0.1
+IS_APP_BUNDLE_ID = ios/Flutter/Debug.xcconfig
