@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  margin: 0px;
+}
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: #e5e5e5;
+  position: relative;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  width: 360px;
+  flex-grow: 1;
+}
+.logo-large {
+  font-family: Rakkas;
+  color: #71a894;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 0px;
+  padding: 5px 5px 5px 5px;
+  letter-spacing: -0.04em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.logo-text{
+    position: relative;
+    margin-left: 70px;
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    color: #303031;
+        
+}
+.nav-listBod{
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+    margin-left:20px;
+    justify-content: space-between;
+}
+.nav-list-item{
+    margin-right: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    color: #303031;
+    cursor: pointer;
+}
+.nav-list-item:hover{
+    color: #71A894;
+}
