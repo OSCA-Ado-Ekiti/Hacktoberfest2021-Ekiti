@@ -76,35 +76,208 @@ body {
   color: #71a894;
 }
 
+.hero-section {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 60px;
+}
 
-.main {
+.hero-section .hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.hero-section .hero .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hero-section .hero .btn {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+
+  width: 182px;
+
+  background: #71a894;
+  border-radius: 8px;
+  border: none;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  /* identical to box height, or 133% */
+
+  /* White */
+  color: #ffffff;
+}
+
+.hero-section .hero .heading .hero-title {
+  width: 550px;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 68px;
+  /* or 125% */
+
+  /* Black */
+  color: #303031;
+}
+
+.hero-section .hero .heading .description {
+  /* Description */
+  width: 100%;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+  letter-spacing: -0.02em;
+
+  /* Gray */
+  color: #66645e;
+}
+
+.hero-section .hero-bg-img {
+  position: relative;
+  background-image: url("../svg-designs/Hero\ Image\ with\ blob.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.middle-section,
+.middle-groups {
+  position: relative;
+  width: 100%;
+}
+
+.middle-groups {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+  padding: 0px 60px;
+}
+
+.middle-groups .group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 6em;
+}
+
+.middle-groups .group:nth-last-of-type(2) {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.middle-groups .group:nth-last-of-type(1) {
+  background: #71a894;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.middle-groups .group .group-title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 64px;
+  /* identical to box height, or 178% */
+  color: #ffffff;
+}
+
+.middle-groups .group:nth-last-of-type(2) .group-title {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 64px;
+  color: #71a894;
+}
+
+.middle-groups .group .group-description {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  letter-spacing: -0.02em;
+  color: #71a894;
+  margin-top: -12%;
+}
+
+.middle-groups .group:nth-last-of-type(1) .group-description {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: -5%;
+
+  /* or 144% */
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+/* contributor section */
+.contributor-section {
+  position: relative;
+  padding: 60px;
+}
+
+.contributor-section,
+.contributors {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-.HackParticipant {
-  padding: 10px;
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 10mm;
+.contributors .contribute-heading {
+  width: 550px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 64px;
+  /* or 178% */
+  text-align: center;
+
+  color: #71a894;
 }
 
-.partContainer {
+.contributor-section .partContainer {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(auto, 1fr);
-  padding: 10px;
+  grid-template-columns: auto auto auto auto;
+  padding: 50px 80px;
   width: 100%;
   margin-top: 2%;
+
+  background: #71a894;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .card {
   padding: 5px;
   border-radius: 50%;
   position: relative;
-  width: 35px;
-  height: 35px;
+  width: 55px;
+  height: 55px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,6 +289,12 @@ body {
   display: flex;
   align-items: flex-start;
   justify-self: start;
+  position: absolute;
+  top: 22.7%;
+  left: 11%;
+  cursor: none;
+  color: white;
+  font-weight: bold;
 }
 
 .cardData {
@@ -125,11 +304,18 @@ body {
   align-items: center;
   font-size: 12px;
   margin: 2%;
+
+  width: 250px;
+  height: 250px;
+
+  background: #ffffff;
+  box-shadow: 0px 3px 2px 2px rgba(51, 51, 51, 0.1);
+  border-radius: 10px;
 }
 
 .contributorName {
   padding: 5px;
-  font-size: xx-small;
+  font-size: medium;
   text-align: center;
 }
 

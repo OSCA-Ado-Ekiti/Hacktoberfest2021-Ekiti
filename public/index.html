@@ -1,32 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Hacktoberfest''21</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="nav">
-        <div class="nav-header">
+      <div class="nav-header">
         <div class="logo">
-            <div class="logo-large">
-                   <h1>HE</h1> 
-            </div>
-            <div class="logo-text">
-                    <h4>Hacktoberfest'21Ekiti</h4>
-            </div>
+          <div class="logo-large">
+            <h1>HE</h1>
+          </div>
+          <div class="logo-text">
+            <h4>Hacktoberfest'21Ekiti</h4>
+          </div>
         </div>
         <div class="nav-list">
-            <ul class="nav-listBod">
-                <li class="nav-list-item">Why Open Source?</li>
-                <li class="nav-list-item">Story Time</li>
-                <li class="nav-list-item" ><a href="contributor.html">Contributors</a></li>
-                <li class="nav-list-item">Make a pull request</li>
-            </ul>
+          <ul class="nav-listBod">
+            <li class="nav-list-item">Why Open Source?</li>
+            <li class="nav-list-item">Story Time</li>
+            <li class="nav-list-item">
+              <a href="#contributor">Contributors</a>
+            </li>
+            <li class="nav-list-item">Make a pull request</li>
+          </ul>
         </div>
-    </div>
+      </div>
     </nav>
-</body>
+
+    <!-- heading section  -->
+    <section id="hero" class="hero-section">
+      <div class="hero">
+        <div class="heading">
+          <h2 class="hero-title">
+            Open Source is here One contribution at a time.
+          </h2>
+          <p class="description">
+            Log in with your GitHub or GitLab account at
+            hacktoberfest.digitalocean.com to track your progress
+          </p>
+        </div>
+        <button class="btn">check progress</button>
+      </div>
+      <div class="hero-bg-img"></div>
+    </section>
+
+    <!-- middle section  -->
+    <section class="middle-section">
+      <div class="middle-groups">
+        <div class="group">
+          <h2 class="group-title">What is Open Source?</h2>
+          <p class="group-description">
+            Open source refers to source code that is publicly accessible and
+            allows anyone to inspect, modify or learn from it. Open source
+            projects encourages collaboration and the freedom to use the
+            software for any purpose you wish.
+          </p>
+        </div>
+        <div class="group">
+          <h2 class="group-title">What is Hacktoberfest?</h2>
+          <p class="group-description">
+            Hacktoberfest is a month-long celebration of open-source software by
+            DigitalOcean that encourages participation in giving back to the
+            open-source community. Developers get involved by completing pull
+            requests, participating in events, and donating to open source
+            projects. During this event, anyone can support open source by
+            contributing changes and earn limited-edition swag.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contributor section  -->
+    <section class="contributor-section" id="#contributor">
+      <div class="contributors">
+        <h2 class="contribute-heading">
+          See profile of all Hacktoberfest Ekiti contributors
+        </h2>
+      </div>
+      <p class="totalPart" id="totalPart"></p>
+      <div class="partContainer" id="participantContainer"></div>
+    </section>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="index.js"></script>
 </html>
