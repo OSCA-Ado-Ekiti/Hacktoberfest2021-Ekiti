@@ -75,3 +75,69 @@ body {
 .nav-list-item:hover {
   color: #71a894;
 }
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HackParticipant {
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10mm;
+}
+
+.partContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  padding: 10px;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.card {
+  padding: 5px;
+  border-radius: 50%;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.356);
+}
+
+.totalPart {
+  display: flex;
+  align-items: flex-start;
+  justify-self: start;
+}
+
+.cardData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin: 2%;
+}
+
+.contributorName {
+  padding: 5px;
+  font-size: xx-small;
+  text-align: center;
+}
+
+.contributorDetails {
+  position: absolute;
+  display: none;
+  border-bottom: 1px dotted black;
+  transition: 0.3s;
+  z-index: 999;
+  background: rgb(33, 168, 33);
+}
