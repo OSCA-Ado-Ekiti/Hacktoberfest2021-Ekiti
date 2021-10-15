@@ -158,6 +158,7 @@ body {
   height: 100vh;
 }
 
+/* middle section */
 .middle-section,
 .middle-groups {
   position: relative;
@@ -234,6 +235,123 @@ body {
   color: #ffffff;
 }
 
+/* center section */
+.center-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px;
+  padding: 0px 60px;
+}
+
+.center-section .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-section .center .center-heading {
+  width: 755px;
+  height: 64px;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+  text-align: center;
+
+  color: #71a894;
+  margin: 55px 0px 0px 0px;
+  padding: 0;
+}
+
+.center-section .center .center-description {
+  width: 872px;
+  height: 78px;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Black */
+  color: #303031;
+}
+
+.center-section .center-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.center-section .center-container .card {
+  /* Card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 380px;
+  height: 380px;
+
+  /* White */
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+}
+
+.center-section .center-container .card .card-heading {
+  /* Card Title */
+  width: 275px;
+  height: 32px;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  margin: -8% 0px;
+
+  color: #71a894;
+}
+
+.center-section .center-container .card .card-body {
+  /* Card Description */
+  width: 379px;
+  height: 78px;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  text-align: center;
+  margin: 0px;
+  padding: 0px 20px;
+
+  /* Black */
+  color: #303031;
+}
+
+.center-section .center-container .card .card-icon {
+  /* Icon */
+  width: 104px;
+  height: 88px;
+}
+
 /* contributor section */
 .contributor-section {
   position: relative;
@@ -272,29 +390,25 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.card {
+.data-box {
   padding: 5px;
   border-radius: 50%;
   position: relative;
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid black;
-  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.356);
 }
 
 .totalPart {
   display: flex;
-  align-items: flex-start;
-  justify-self: start;
-  position: absolute;
-  top: 22.7%;
-  left: 11%;
+  position: relative;
+  margin-bottom: -5%;
   cursor: none;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
+  text-align: left;
 }
 
 .cardData {
@@ -317,13 +431,33 @@ body {
   padding: 5px;
   font-size: medium;
   text-align: center;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+
+  color: #71a894;
 }
 
 .contributorDetails {
-  position: absolute;
   display: none;
-  border-bottom: 1px dotted black;
-  transition: 0.3s;
-  z-index: 999;
-  background: rgb(33, 168, 33);
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  position: relative;
+  width: 245px;
+  padding: 5px 2px 0;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 125% */
+  letter-spacing: -0.02em;
+  color: #71a894;
 }
