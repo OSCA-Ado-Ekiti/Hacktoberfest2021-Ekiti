@@ -1,7 +1,9 @@
 name: Deploy to Preview Channel
 
 on:
-  pull_request:
+  pull_request_target:
+    branches:
+      - main
     # Optionally configure to run only for specific files. For example:
     # paths:
     # - "website/**"
