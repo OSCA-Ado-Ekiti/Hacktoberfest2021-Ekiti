@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -41,32 +41,37 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.logo-text{
-    position: relative;
-    margin-left: 70px;
-    font-style: normal;
-    font-family: Roboto;
-    font-weight: normal;
-    font-size: 16px;
-    color: #303031;
-        
+.logo-text {
+  position: relative;
+  margin-left: 70px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  color: #303031;
 }
-.nav-listBod{
-    list-style-type: none;
-    display: flex;
-    margin-right: 20px;
-    margin-left:20px;
-    justify-content: space-between;
+.nav-listBod {
+  list-style-type: none;
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  justify-content: space-between;
 }
-.nav-list-item{
-    margin-right: 20px;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 16px;
-    font-style: normal;
-    color: #303031;
-    cursor: pointer;
+.nav-list-item {
+  margin-right: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  color: #303031;
+  cursor: pointer;
 }
-.nav-list-item:hover{
-    color: #71A894;
+
+.nav-list-item a {
+  text-decoration: none;
+  color: #303031;
+}
+
+.nav-list-item:hover {
+  color: #71a894;
 }
