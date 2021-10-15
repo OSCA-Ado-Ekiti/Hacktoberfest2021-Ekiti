@@ -107,7 +107,16 @@
         "Twitter Handle": "Nil",
         "GitHub Profile": "https://github.com/Fumzus",
         "Which niche do you like contributing too?": "Documentation"
-    }        
+    } ,
+    {
+        "Name": "Shreyansh Gupta",
+        "Nickname": "Shreyansh",
+        "Tech Stack": "Android Developer",
+        "Experience Level in OSS": "Beginner",
+        "Twitter Handle": "https://twitter.com/shreyansgupta41",
+        "GitHub Profile": "https://github.com/shreyanshgupta42",
+        "Which niche do you like contributing too?": "Documentation and cpp code"
+    }      
   ]
 }
 
