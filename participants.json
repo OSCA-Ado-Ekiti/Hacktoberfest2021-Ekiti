@@ -63,32 +63,52 @@
       "GitHub Profile": "https://github.com/Sproff",
       "Which niche do you like contributing too?": "Documentation and Code"
     },
-{
-    "Name": "Apole Samuel",
-    "Nickname": "Samzzy",
-    "Tech Stack": "Frontend Developer(Vue Js)",
-    "Experience Level in OSS": "Intermediate",
-    "Twitter Handle": "@ApoleSamuel",
-    "GitHub Profile": "https://github.com/samzzy-blink",
-    "Which niche do you like contributing too?": "Code for now"
-},  
-{
-    "Name": "Adeshina Favourdgreat",
-    "Nickname": "Greatness",
-    "Tech Stack": "Mobile Developer",
-    "Experience Level in OSS": "Intermediate",
-    "Twitter Handle": "@favour_adeshina",
-    "GitHub Profile": "https://github.com/Favour-dgreat",
-    "Which niche do you like contributing too?": "Code"
-},
-{
-    "Name": "Oni Faith Ayoola",
-    "Nickname": "Hyssop",
-    "Tech Stack": "UI/UX Design",
-    "Experience Level in OSS": "Intermediate",
-    "Twitter Handle": "@onifaithayoola",
-    "GitHub Profile": "https://github.com/onifaithayoola",
-    "Which niche do you like contributing too?": "Design"
-}
+    {
+        "Name": "Apole Samuel",
+        "Nickname": "Samzzy",
+        "Tech Stack": "Frontend Developer(Vue Js)",
+        "Experience Level in OSS": "Intermediate",
+        "Twitter Handle": "@ApoleSamuel",
+        "GitHub Profile": "https://github.com/samzzy-blink",
+        "Which niche do you like contributing too?": "Code for now"
+    },  
+    {
+        "Name": "Adeshina Favourdgreat",
+        "Nickname": "Greatness",
+        "Tech Stack": "Mobile Developer",
+        "Experience Level in OSS": "Intermediate",
+        "Twitter Handle": "@favour_adeshina",
+        "GitHub Profile": "https://github.com/Favour-dgreat",
+        "Which niche do you like contributing too?": "Code"
+    },
+    {
+        "Name": "Oni Faith Ayoola",
+        "Nickname": "Hyssop",
+        "Tech Stack": "UI/UX Design",
+        "Experience Level in OSS": "Intermediate",
+        "Twitter Handle": "@onifaithayoola",
+        "GitHub Profile": "https://github.com/onifaithayoola",
+        "Which niche do you like contributing too?": "Design"
+    },
+    {
+        "Name": "Johnson Akinpelu",
+        "Nickname": "JohnsonAkin",
+        "Tech Stack": "JohnsonAkin",
+        "Experience Level in OSS": "Beginner",
+        "Twitter Handle": "NILL",
+        "GitHub Profile": "https://github.com/JohnsonAkin",
+        "Which niche do you like contributing too?": "Documentation🥴"
+    }, 
+    {
+        "Name": "Ogunbanwo Funmilola Rebecca",
+        "Nickname": "Fumzus",
+        "Tech Stack": "Ogunbanwo Funmilola",
+        "Experience Level in OSS": "Beginner",
+        "Twitter Handle": "Nil",
+        "GitHub Profile": "https://github.com/Fumzus",
+        "Which niche do you like contributing too?": "Documentation"
+    }        
   ]
 }
+
+
