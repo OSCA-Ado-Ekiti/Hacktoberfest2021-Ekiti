@@ -440,7 +440,7 @@ body {
 .story-section .story-cont .story-board .stack-top {
   position: relative;
   right: 0%;
-  margin: -15% -62% 0% 0% ;
+  margin: -15% -62% 0% 0%;
   z-index: 9;
 }
 
@@ -629,17 +629,11 @@ body {
   color: #71a894;
 }
 
-
-
 .footer {
-  position: absolute;
-  bottom: 0;
-  height: 60px;
   width: 100%;
   padding-left: 56px;
   padding-right: 56px;
 }
-
 
 .f-text {
   font-family: Roboto Slab;
@@ -651,7 +645,6 @@ body {
   color: #303031;
 }
 
-
 .f-list {
   font-family: Roboto Slab;
   font-style: normal;
@@ -661,19 +654,18 @@ body {
   letter-spacing: -0.02em;
   color: #303031;
   margin: 0 10px;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
-
 
 .f-listBod {
   list-style-type: none;
   display: flex;
-  margin-right: 20px;
-  margin-left: 20px;
   justify-content: space-between;
+  width: 100%;
 }
-
 
 .f-listBod a {
   text-decoration: none;
+  color: #333;
 }
