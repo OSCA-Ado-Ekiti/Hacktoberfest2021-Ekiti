@@ -440,6 +440,7 @@ body {
   background: #71a894;
   box-sizing: border-box;
   border-radius: 16px;
+  padding: 0px 10px;
 }
 
 .story-section .story-cont .story-board .stack-top {
@@ -452,10 +453,6 @@ body {
 }
 
 .story-section .story-cont .story-board .board .contributor {
-  /* Contributors */
-  width: 186px;
-  height: 40px;
-
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
@@ -463,15 +460,10 @@ body {
   line-height: 40px;
   /* identical to box height, or 125% */
   letter-spacing: -0.02em;
-
   color: #71a894;
 }
 
 .story-section .story-cont .story-board .board .members {
-  /* Member */
-  width: 72px;
-  height: 72px;
-
   background: #c4c4c4;
 
   /* 100 SHARES */
@@ -490,12 +482,6 @@ body {
 
   /* Gray */
   color: #66645e;
-
-  /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 4px 0px;
 
   /* Member */
 

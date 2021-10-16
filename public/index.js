@@ -26,7 +26,7 @@ $(document).ready(() => {
                     <span class="contributorName" id="cbName${i}" >${e.Name}</span>
                 </div>
                 `)
-            
+
             // $(`#details${i}`).css({
             //     "display": "flex", 
             // })
@@ -45,6 +45,11 @@ $(document).ready(() => {
                     <span>GitHub Profile: ${e["GitHub Profile"]}</span><br/>
                     <span>Which niche do you like contributing too?: ${e["Which niche do you like contributing too?"]}</span> 
             </div>`).appendTo(`#cardData${i}`)
+        })
+
+        // contributor story members
+        data.map(m => {
+            data.sli
         })
     })
 });
