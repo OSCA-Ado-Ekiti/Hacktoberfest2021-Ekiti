@@ -16,17 +16,21 @@ body {
   padding-left: 56px;
   padding-right: 56px;
 }
-.nav-header {
+.nav-header,
+.f-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
+
 .logo {
   display: flex;
   flex-direction: row;
   width: 360px;
   flex-grow: 1;
 }
+
 .logo-large {
   font-family: Rakkas;
   color: #71a894;
@@ -41,6 +45,7 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
 .logo-text {
   position: relative;
   margin-left: 70px;
@@ -50,6 +55,7 @@ body {
   font-size: 16px;
   color: #303031;
 }
+
 .nav-listBod {
   list-style-type: none;
   display: flex;
@@ -57,7 +63,9 @@ body {
   margin-left: 20px;
   justify-content: space-between;
 }
-.nav-list-item {
+
+.nav-list-item,
+.f-list-item {
   margin-right: 20px;
   font-family: Roboto;
   font-weight: 500;
