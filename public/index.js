@@ -13,7 +13,7 @@ $(document).ready(() => {
     $.getJSON(githubLink, (res) => {
         let data = res.participants;
 
-        $('#totalPart').html(`Participants ${data.length}`);
+        $('#totalPart').html(`TOTAL CONTRIBUTORS ${data.length}`);
 
         data.map((e, i) => {
             // get github user profile image / icon

@@ -23,7 +23,6 @@ body {
   justify-content: space-between;
 }
 
-
 .logo {
   display: flex;
   flex-direction: row;
@@ -438,9 +437,7 @@ body {
   right: 0;
 
   /* White */
-  background: #ffffff;
-  /* Black */
-  border: 4px solid #303031;
+  background: #71a894;
   box-sizing: border-box;
   border-radius: 16px;
 }
@@ -450,6 +447,8 @@ body {
   right: 0%;
   margin: -15% -62% 0% 0%;
   z-index: 9;
+  background: #ffffff;
+  border: 4px solid #303031;
 }
 
 .story-section .story-cont .story-board .board .contributor {
