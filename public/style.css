@@ -74,7 +74,11 @@ body {
   cursor: pointer;
 }
 
-.nav-list-item a {
+.f-list-item:hover {
+  color: #71a894;
+}
+
+a {
   text-decoration: none;
   color: #303031;
 }
@@ -647,7 +651,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 32px;
+  line-height: 0px;
   letter-spacing: -0.04em;
   color: #303031;
 }
@@ -663,6 +667,10 @@ body {
   margin: 0 10px;
   display: flex;
   flex-direction: row;
+}
+
+.f-list-item{
+
 }
 
 .f-listBod {
