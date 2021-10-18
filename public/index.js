@@ -84,44 +84,34 @@ $(document).ready(() => {
         // detect click effect
         $('.board').click((e) => {
 
-            // let targetId = e.target.id;
-            // let prevId = $('.stack-top').attr("id");
-
             let num = [$('.board').attr('id')].indexOf(e.target.id);
-            alert(num);
-
             swap(0, num)
-
-            // if (prevId !== targetId) {
-            //     $(`#${targetId}`).addClass('stack-top').css({ "z-index": "auto" });
-            //     $(`#${prevId}`).removeClass('stack-top').css({ "z-index": `auto` });
-            // }
         })
         // }
 
         // changeStack()
 
-        function swap(idx1, idx2) {
+        // function swap(idx1, idx2) {
 
-            let container = document.getElementById('storyBoard');
+        //     let container = document.getElementById('storyBoard');
 
-            // ditch text nodes and the like
-            let children = Array.prototype.filter.call(
-                container.childNodes,
-                function (node) {
-                    return node.nodeType === 1;
-                }
-            );
-            // get references to the relevant children
-            let el1 = children[idx1];
-            let el2 = children[idx2];
-            let el2next = children[idx2 + 1];
+        //     // ditch text nodes and the like
+        //     let children = Array.prototype.filter.call(
+        //         container.childNodes,
+        //         function (node) {
+        //             return node.nodeType === 1;
+        //         }
+        //     );
+        //     // get references to the relevant children
+        //     let el1 = children[idx1];
+        //     let el2 = children[idx2];
+        //     let el2next = children[idx2 + 1];
 
-            // put the second element before the first
-            container.insertBefore(el2, el1);
-            // now put the first element where the second used to be
-            if (el2next) container.insertBefore(el1, el2next);
-            else container.appendChild(el1);
-        }
+        //     // put the second element before the first
+        //     container.insertBefore(el2, el1);
+        //     // now put the first element where the second used to be
+        //     if (el2next) container.insertBefore(el1, el2next);
+        //     else container.appendChild(el1);
+        // }
     })
 });
