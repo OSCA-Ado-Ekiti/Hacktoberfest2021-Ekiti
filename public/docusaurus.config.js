@@ -1,10 +1,10 @@
 module.exports = {
   title: 'Plausible docs',
   url: 'https://hacktoberfest-ekiti.web.app/',
-  baseUrl: '/docs/',
+  baseUrl: '/documentation/',
   favicon: 'img/favicon.png',
   organizationName: 'plausible',
-  projectName: 'docs',
+  projectName: 'documentation',
   scripts: [
     {src: 'https://hacktoberfest-ekiti.web.app/script.js', defer: true, 'data-domain': 'hacktoberfest-ekiti.web.app'}
   ],
@@ -24,7 +24,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
           target: '_self',
-          activeBasePath: '/docs'
+          activeBasePath: '/documentation'
         },
         {
           href: 'https://github.com/Hacktoberfest2021-Ekiti/docs',
