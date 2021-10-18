@@ -11,8 +11,28 @@ on:
 jobs:
   deploy_live_website:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: public
+
     steps:
       - uses: actions/checkout@v2
+      - name: Access Source directory
+        run: pwd
+      #- name: Chnage to public directory
+        #run: cd public
+      - name: Install dependencies
+        run: yarn && yarn run build
+      - name: Move build to docs
+        run: mv build/ documentation/
+      - name: Ensure we are in the correct directory context
+        run: cd documentation/
+      - name: Ensure we are in the correct directory context
+        run: ls
+      - name: Ensure we are in the correct directory context
+        run: pwd
+      - name: Ensure we are in the correct directory context
+        run: cd
       # Add any build steps here. For example:
       # - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
