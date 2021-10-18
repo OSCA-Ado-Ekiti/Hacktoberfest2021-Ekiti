@@ -365,7 +365,7 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 30px 0px;
+  margin: 10% 0px;
   padding: 0px 60px;
 }
 
@@ -427,29 +427,32 @@ body {
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
+  z-index: 0;
 }
 
 .story-section .story-cont .story-board .board {
   /* Members Widget */
   width: 300px;
   height: 300px;
-  position: relative;
-  right: 0;
+  position: absolute;
+  right: 8%;
 
   /* White */
   background: #71a894;
   box-sizing: border-box;
   border-radius: 16px;
   padding: 0px 10px;
+  color: #ffffff;
 }
 
 .story-section .story-cont .story-board .stack-top {
   position: relative;
   right: 0%;
-  margin: -15% -62% 0% 0%;
+  margin: -15% -26% 0% 0%;
   z-index: 9;
   background: #ffffff;
   border: 4px solid #303031;
+  color: #71a894;
 }
 
 .story-section .story-cont .story-board .board .contributor {
@@ -460,56 +463,60 @@ body {
   line-height: 40px;
   /* identical to box height, or 125% */
   letter-spacing: -0.02em;
-  color: #71a894;
 }
 
 .story-section .story-cont .story-board .board .members {
-  background: #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
 
-  /* 100 SHARES */
-  width: 91px;
-  height: 26px;
-  left: 0px;
-  top: 30px;
+.story-section .story-cont .story-board .board .members .member-cont {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 
+.story-section
+  .story-cont
+  .story-board
+  .board
+  .members
+  .member-cont
+  .member-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 18px;
+  padding: 0px 0px 0px 10px;
+}
+
+.story-section .story-cont .story-board .board .members img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.story-section .story-cont .story-board .board .members .member-name {
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
   /* identical to box height, or 162% */
   letter-spacing: -0.02em;
 
   /* Gray */
   color: #66645e;
+}
 
-  /* Member */
-
-  position: absolute;
-  width: 72px;
-  height: 72px;
-  left: 40px;
-  top: 200px;
-
+.story-section .story-cont .story-board .board .members .shares {
   /* 100 SHARES */
-
-  position: static;
-  width: 91px;
-  height: 26px;
-  left: 0px;
-  top: 30px;
-
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
   /* identical to box height, or 162% */
   letter-spacing: -0.02em;
-
   /* Gray */
   color: #66645e;
-  margin: 4px 0px;
 }
 
 /* contributor section */
