@@ -23,8 +23,10 @@ jobs:
         #run: cd public
       - name: Install dependencies
         run: yarn && yarn run build
-      #- name: Move build to docs
-        #run: mv build/ docs/
+      - name: Move build to docs
+        run: mv build/ documentation/
+      - name: Ensure we are in the correct directory context
+        run: cd documentation/
       - name: Ensure we are in the correct directory context
         run: ls
       - name: Ensure we are in the correct directory context
