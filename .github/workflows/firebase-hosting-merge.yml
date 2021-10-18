@@ -13,6 +13,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      
+      
+    - name: Access Source directory
+      run: pwd
+    - name: Chnage to public directory
+      run: cd public
+    - name: Install dependencies
+      run: yarn && yarn run build
+    - name: Move build to docs
+      run: mv build/ docs/
+    - name: Ensure we are in the correct directory context
+      run: cd
       # Add any build steps here. For example:
       # - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
