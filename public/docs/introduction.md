@@ -11,7 +11,7 @@ Hacktoberfest
 
 - [OSCA Ado Ekiti](https://twitter.com/osca_adoe_kiti),
 - [Codecademy EKSU](https://twitter.com/CodecademyEksu),
-- [SheCodeAfrica Ado](https://twitter.com/sca_adoekiti),
+- [SheCodeAfrica Ado Ekiti](https://twitter.com/sca_adoekiti),
 - [Google Developer Student Clubs Federal University Oye-Ekiti](https://twitter.com/GdscFuoye),
 - [Google Developer Student Clubs Ekiti State University](https://twitter.com/DscEksu).
 
