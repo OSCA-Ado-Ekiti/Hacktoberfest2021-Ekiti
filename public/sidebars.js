@@ -1,5 +1,5 @@
 module.exports = {
   someSidebar: {
-    "Get Started": ['introduction'],
+    "Get Started": ['introduction','why-open-source'],
   },
 };

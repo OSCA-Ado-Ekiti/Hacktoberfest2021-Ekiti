@@ -11,10 +11,10 @@ module.exports = {
   themeConfig: {
     colorMode: {disableSwitch: true},
     navbar: {
-      title: 'HacktoberFest Ekiti 2021 Docs',
+      title: 'HacktoberFest Ekiti 2021',
       logo: {
         alt: 'Hacktoberfest Ekiti logo',
-        src: 'img/logo.svg',
+        src: 'https://hacktoberfest-ekiti.web.app/icons/Hacktoberfest-Ekiti.png',
         href: 'https://hacktoberfest-ekiti.web.app/',
         target: '_self',
       },
@@ -92,7 +92,7 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti/edit/master/',
+            'https://github.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti/edit/main/public',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
