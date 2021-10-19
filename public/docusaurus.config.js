@@ -14,7 +14,7 @@ module.exports = {
       title: 'HacktoberFest Ekiti 2021 Docs',
       logo: {
         alt: 'Hacktoberfest Ekiti logo',
-        src: './icons/Hacktoberfest-Ekiti.png',
+        src: 'https://hacktoberfest-ekiti.web.app/icons/Hacktoberfest-Ekiti.png',
         href: 'https://hacktoberfest-ekiti.web.app/',
         target: '_self',
       },
