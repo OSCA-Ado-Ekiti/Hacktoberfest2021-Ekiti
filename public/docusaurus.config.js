@@ -92,7 +92,7 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti/edit/main/public/docs',
+            'https://github.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti/edit/main/public',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
