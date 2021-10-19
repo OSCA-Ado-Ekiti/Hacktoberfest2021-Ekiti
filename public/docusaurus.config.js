@@ -11,7 +11,7 @@ module.exports = {
   themeConfig: {
     colorMode: {disableSwitch: true},
     navbar: {
-      title: 'HacktoberFest Ekiti 2021 Docs',
+      title: 'HacktoberFest Ekiti 2021',
       logo: {
         alt: 'Hacktoberfest Ekiti logo',
         src: 'https://hacktoberfest-ekiti.web.app/icons/Hacktoberfest-Ekiti.png',
