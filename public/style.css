@@ -26,28 +26,26 @@ body {
 .logo {
   display: flex;
   flex-direction: row;
-  width: 360px;
-  flex-grow: 1;
+  width: 380px;
+  flex-grow: 2;
 }
 
 .logo-large {
-  font-family: Rakkas;
-  color: #71a894;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 0px;
   padding: 5px 5px 5px 5px;
-  letter-spacing: -0.04em;
   margin: 0;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.logo-image{
+  height: 84px;
+  width: 83px;
+}
 
 .logo-text {
   position: relative;
-  margin-left: 70px;
+  margin-left: 100px;
   font-style: normal;
   font-family: Roboto;
   font-weight: normal;
