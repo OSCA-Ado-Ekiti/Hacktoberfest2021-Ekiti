@@ -134,7 +134,16 @@
         "Twitter Handle": "https://twitter.com/jon_prale",
         "GitHub Profile": "https://github.com/Praeiz",
         "Which niche do you like contributing too?": "Documentation and code"
-    }     
+    },
+    {
+        "Name": "James Teddy JR",
+        "Nickname": "QueTeddy",
+        "Tech Stack": "Data Scientist",
+        "Experience Level in OSS": "Beginner",
+        "Twitter Handle": "https://twitter.com/McTeddy_jr",
+        "GitHub Profile": "https://github.com/QueTeddy",
+        "Which niche do you like contributing too?": "Documentation and code"
+    }
   ]
 }
 
