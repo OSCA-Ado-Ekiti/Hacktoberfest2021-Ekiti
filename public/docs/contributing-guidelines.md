@@ -1,5 +1,3 @@
-
-
 ---
 title: How to add your profile to participant.json
 slug: /contributing-guidelines
