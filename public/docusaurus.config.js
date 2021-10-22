@@ -1,9 +1,9 @@
 module.exports = {
-  title: 'Plausible docs',
+  title: 'HacktoberFest Ekiti 2021 Docs',
   url: 'https://hacktoberfest-ekiti.web.app/',
   baseUrl: '/documentation/',
   favicon: 'img/favicon.png',
-  organizationName: 'plausible',
+  organizationName: 'OSCA-Ado-Ekiti',
   projectName: 'documentation',
   scripts: [
     {src: 'https://hacktoberfest-ekiti.web.app/script.js', defer: true, 'data-domain': 'hacktoberfest-ekiti.web.app'}
@@ -11,10 +11,10 @@ module.exports = {
   themeConfig: {
     colorMode: {disableSwitch: true},
     navbar: {
-      title: 'HacktoberFest Ekiti 2021 Docs',
+      title: 'HacktoberFest Ekiti 2021',
       logo: {
         alt: 'Hacktoberfest Ekiti logo',
-        src: 'img/logo.svg',
+        src: 'https://hacktoberfest-ekiti.web.app/icons/Hacktoberfest-Ekiti.png',
         href: 'https://hacktoberfest-ekiti.web.app/',
         target: '_self',
       },
@@ -27,7 +27,7 @@ module.exports = {
           activeBasePath: '/documentation'
         },
         {
-          href: 'https://github.com/Hacktoberfest2021-Ekiti/docs',
+          href: 'https://github.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti/documentation',
           label: 'GitHub',
           position: 'right',
         },
@@ -44,12 +44,12 @@ module.exports = {
               to: 'https://hacktoberfest-ekiti.web.app/about',
             },
             {
-              label: 'Read our blog',
-              to: 'https://hacktoberfest-ekiti.web.app/blog',
+              label: 'See our contributors',
+              to: 'https://hacktoberfest-ekiti.web.app/contributors',
             },
             {
               label: 'Study the documentation',
-              to: 'https://hacktoberfest-ekiti.web.app/docs',
+              to: 'https://hacktoberfest-ekiti.web.app/documentation/',
             },
           ],
         },
@@ -92,7 +92,7 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti/edit/master/',
+            'https://github.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti/edit/main/public',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
