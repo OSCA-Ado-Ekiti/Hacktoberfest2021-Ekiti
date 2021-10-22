@@ -10,7 +10,11 @@
 
 ![branch](https://user-images.githubusercontent.com/37118134/136855314-293987c9-9b2c-427f-a7a2-ff92df68a69e.jpg)
 
-4. when you are done making your contributions, you can now create a pull request.
+
+4. Add your contirbutions as files.
+  
+
+5. when you are done making your contributions, you can now create a pull request.
 
 ![pull request](https://user-images.githubusercontent.com/53593233/138093480-ab88af7d-703e-41b8-b548-16d17ba3df75.JPG)
 
