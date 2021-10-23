@@ -17,27 +17,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Access Source directory
-        run: pwd
-      #- name: Chnage to public directory
-        #run: cd public
-      - name: Install dependencies
-        run: yarn && yarn run build
-      - name: Move build to docs
-        run: mv build/ documentation/
-      - name: Ensure we are in the correct directory context
-        run: cd documentation/
-      - name: Ensure we are in the correct directory context
-        run: ls
-      - name: Ensure we are in the correct directory context
-        run: pwd
-      - name: Ensure we are in the correct directory context
-        run: cd
+      # Add any build steps here. For example:
+      # - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_HACKTOBERFEST_EKITI }}"
-          expires: 7d
+          expires: 2d
           projectId: hacktoberfest-ekiti
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
