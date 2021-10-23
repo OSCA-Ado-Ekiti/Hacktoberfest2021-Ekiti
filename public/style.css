@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -749,18 +750,26 @@ a {
 /*Lower middle section */ 
 .flex{
   display: flex;
+  margin-left: 100px;
+  margin-top: 100px;
+  width: 90%;
+  justify-content: space-between;
 }
 
-h1{
+.mockup-h1{
 width: 644px;
 font-family: Roboto Slab;
 font-style: normal;
 font-weight: normal;
 font-size: 48px;
 color: #71A894;
-}
 
-p{
+}
+.flex-proj{
+  display: flex;
+
+}
+.mockup-p{
 width: 626px;
 font-family: Roboto Slab;
 font-style: normal;
@@ -816,18 +825,21 @@ border-radius: 16px;
 padding: 4vh;
 }
 .button{
-padding: 10px 145px 10px 150px;
 background: #303031;
 border-radius: 16px;
 color: white;
-width: 183px;
+width: 404px;
 height: 32px;
 font-family: Roboto Slab;
 font-style: normal;
 font-weight: 500;
-font-size: 24px;
+font-size: 20px;
 letter-spacing: -0.02em;
-margin-bottom: -5px;
+white-space: nowrap;
+text-align: center;
+cursor: pointer;
+height: 56px;
+padding-top: 14px;
 }
 .div1{
   padding-bottom: 15vh;
@@ -849,4 +861,50 @@ img{
 }
 .space{
   margin-bottom: 15vh;
+}
+.hero-sect{
+  height: 720px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 50px;
+  
+}
+.hero-h1{
+  color: #303031;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Roboto Slab;
+  max-width: 600px;
+  min-width: 308px;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.hero-p{
+  color: #66645E;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  font-style: normal;
+  margin-bottom: 24px;
+}
+.progress{
+  background-color: #71A894;
+  max-width: 182px;
+  text-align: center;
+  height: 64px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: Roboto Slab;
+  font-weight: 700;
+  vertical-align: middle;
+  align-self: center;
+  padding-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.illustration{
+  height: 569px;
+  width: 1012px;
+  border-radius: 0px;
 }
