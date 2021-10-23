@@ -13,4 +13,4 @@ slug: /contributing-guidelines
 ![Screenshot_20211014-084557](https://user-images.githubusercontent.com/92284758/138213835-ecdf25d3-c8ac-412b-9c24-7a7335667919.png)
 5. Return to your copy of repository to click "participant.json". After clicking, notice a pen to edit and click as well. scroll to the last person detail to add yours like others (by pasting what you copied earlier to edit)
 ![Screenshot_20211014-085452](https://user-images.githubusercontent.com/92284758/138214725-99e76203-71e2-4104-8386-e72a889bcd2b.png)
-6. Lastly click "compair and pull request" and wait till it load
+6. Lastly click "compare and pull request" and wait till it load another page where you enter your pull request title and description.
