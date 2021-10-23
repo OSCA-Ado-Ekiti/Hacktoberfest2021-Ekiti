@@ -22,7 +22,7 @@ jobs:
       #- name: Chnage to public directory
         #run: cd public
       - name: Install dependencies
-        run: yarn && yarn run build
+        run: yarn install --frozen-lockfile && yarn run build
       - name: Move build to docs
         run: mv build/ documentation/
       #- name: Ensure we are in the correct directory context
