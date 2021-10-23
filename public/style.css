@@ -249,8 +249,12 @@ a {
   margin-bottom: 100px;
 }
 
+.f-row {
+  display: flex;
+}
+
 .right {
-  flex: 1;
+  /* flex: 1; */
   background-color: #71a894;
   padding: 0px 60px;
   color: #ffffff;
@@ -259,7 +263,7 @@ a {
 }
 
 .left {
-  flex: 1;
+  /* flex: 1; */
   padding: 0px 60px;
   color: #71a894;
   height: 418px;
