@@ -17,8 +17,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Access Source directory
-        run: pwd
+      #- name: Access Source directory
+        #run: pwd
       #- name: Chnage to public directory
         #run: cd public
       - name: Install dependencies
