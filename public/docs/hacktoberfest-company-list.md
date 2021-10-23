@@ -25,3 +25,8 @@ slug: /hacktoberfest-company-list
 20. ArchiveSpace
 21. Appwrite
 22. AutoDL
+23. Bagisto
+24. Boa Constrictor
+25. Bridgecrew
+26. Bitrise
+27. Codedamn
