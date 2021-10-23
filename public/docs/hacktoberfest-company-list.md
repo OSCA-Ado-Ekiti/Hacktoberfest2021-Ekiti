@@ -20,3 +20,8 @@ slug: /hacktoberfest-company-list
 15. Milvus
 16. Execute Big
 17. SENTRY
+18. Appsmith
+19. Alpaca
+20. ArchiveSpace
+21. Appwrite
+22. AutoDL
