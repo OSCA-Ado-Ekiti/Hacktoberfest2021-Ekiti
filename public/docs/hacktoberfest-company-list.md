@@ -6,8 +6,8 @@ slug: /hacktoberfest-company-list
 1.  GitHub
 2.  GitLab
 3.  Open collective
-4.  DEV 
-5.  Mattermost
+4.  [DEV](https://dev.to/devteam/hacktoberfest-2021-is-here-4a3l)
+5.  [Mattermost](https://mattermost.com/blog/hacktoberfest-2021/)
 6.  freshworks
 7.  TIDELIFT
 8.  Airtable
@@ -15,7 +15,7 @@ slug: /hacktoberfest-company-list
 10. MLH
 11. Wizard zines
 12. tree-nation 
-13. CAMUNDA
+13. [CAMUNDA](https://camunda.com/hacktoberfest2021/)
 14. Sourcegraph
 15. Milvus
 16. Execute Big
