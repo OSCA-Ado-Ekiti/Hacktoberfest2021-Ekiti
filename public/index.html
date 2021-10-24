@@ -26,6 +26,7 @@
               <a href="#" class="nav-list-item" data-value="contributor">Contributors</a>
             </li>
             <li class="nav-list-item">Make a pull request</li>
+            <button class="one" onclick="myFunction()">Change mode</button>
           </ul>
         </div>
       </div>
@@ -36,12 +37,13 @@
         <div class="hero-text"> 
           <h1 class="hero-h1">Open Source is here <br/> One contribution at a time.</h1>
           <p class="hero-p">Log in with your GitHub or GitLab account at hacktoberfest.digitalocean.com to track your progress</p>
-          <div class="progress">Check Progress</div>
+          
         </div>
         <div class="hero-image"> 
           <img src="./icons/Illustration.png" class="illustration" alt="">
         </div>
       </section>
+      <a href="https://hacktoberfest.digitalocean.com/"><button class="this-button">Check progress</button></a>
 
       <!-- first Section -->
     <section class="container">
@@ -55,7 +57,7 @@
 
         <div class="right">
             <h2 class="title">What is Hacktoberfest? </h2>
-            <p  class="text-1">Hacktobaer is a month-long celebration of open-source 
+            <p  class="text-1">Hacktoberfest is a month-long celebration of open-source 
                 software by DigitalOcean that encourages participation in 
                 giving back to the open-source community. Developers get
                 involved by completing pull requests, participating in 
@@ -249,4 +251,10 @@
     referrerpolicy="no-referrer"
   ></script>
   <script src="index.js"></script>
+  <script>
+		function myFunction() {
+		var element = document.body;
+		element.classList.toggle("dark");
+		}
+	</script>
 </html>
