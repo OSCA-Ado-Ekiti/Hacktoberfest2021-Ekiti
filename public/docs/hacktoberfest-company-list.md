@@ -3,8 +3,8 @@ title: List of companies participating in Hacktoberfest 2021
 slug: /hacktoberfest-company-list
 ---
 
-1.  GitHub
-2.  GitLab
+1.  [GitHub](https://github.blog/2021-10-07-githubs-guide-hacktoberfest-2021/)
+2.  [GitLab](https://about.gitlab.com/blog/2021/10/01/join-us-for-hacktoberfest-2021/)
 3.  Open collective
 4.  [DEV](https://dev.to/devteam/hacktoberfest-2021-is-here-4a3l)
 5.  [Mattermost](https://mattermost.com/blog/hacktoberfest-2021/)
@@ -17,7 +17,7 @@ slug: /hacktoberfest-company-list
 12. tree-nation 
 13. [CAMUNDA](https://camunda.com/hacktoberfest2021/)
 14. Sourcegraph
-15. Milvus
+15. [Milvus](https://milvus.io/hacktoberfest-2021)
 16. Execute Big
 17. SENTRY
 18. Appsmith
