@@ -47,14 +47,14 @@ slug: /hacktoberfest-company-list
 42. LoginRadius
 43. Mattermost
 44. MayaData & OpenEBS
-45. Medusa
-46. MeiliSearch
+45. [Medusa](https://www.medusa-commerce.com/post/medusa-hacktoberfest-announcement)
+46. [MeiliSearch](https://blog.meilisearch.com/contribute-hacktoberfest-2021/)
 47. Memorial Computer Science Society
 48. MindsDB
 49. NativeScript
 50. NMF.earth
 51. Ory
-52. Paypal
+52. [Paypal](https://github.com/paypal/hacktoberfest)
 53. Stack Builders 
 54. StepZen
 55. Supabase
