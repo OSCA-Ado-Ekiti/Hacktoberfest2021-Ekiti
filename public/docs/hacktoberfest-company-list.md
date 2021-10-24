@@ -62,3 +62,8 @@ slug: /hacktoberfest-company-list
 57. Symbl.ai
 58. ToolJet
 59. Zup
+23. Bagisto
+24. Boa Constrictor
+25. Bridgecrew
+26. Bitrise
+27. Codedamn
