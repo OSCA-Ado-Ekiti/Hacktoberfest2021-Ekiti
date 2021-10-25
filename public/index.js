@@ -1,4 +1,4 @@
-// contribution by larrick
+/** contribution by https://github.com/larrick12 */ 
 
 const githubLink = "https://raw.githubusercontent.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti/main/participants.json";
 
