@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -20,6 +21,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.nav-toggler {
+  display: none;
 }
 
 .logo {
@@ -2054,4 +2059,50 @@ h6 {
     cursor: pointer;
     margin: 0px;
   }
+}
+.hero-sect{
+  height: 720px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 50px;
+  
+}
+.hero-h1{
+  color: #303031;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Roboto Slab;
+  max-width: 600px;
+  min-width: 308px;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.hero-p{
+  color: #66645E;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  font-style: normal;
+  margin-bottom: 24px;
+}
+.progress{
+  background-color: #71A894;
+  max-width: 182px;
+  text-align: center;
+  height: 64px;
+  font-size: 18px;
+  color: #ffffff;
+  font-family: Roboto Slab;
+  font-weight: 700;
+  vertical-align: middle;
+  align-self: center;
+  padding-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.illustration{
+  height: 569px;
+  width: 1012px;
+  border-radius: 0px;
 }
