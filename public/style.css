@@ -680,7 +680,7 @@ h6 {
     font-style: normal;
     font-family: Roboto;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 14px;
     color: #303031;
   }
 
@@ -688,7 +688,6 @@ h6 {
   .nav-listBod {
     width: 100%;
     position: relative;
-    /* margin-right: 20px; */
   }
 
   .nav-listBod {
@@ -705,6 +704,45 @@ h6 {
     font-style: normal;
     color: #303031;
     cursor: pointer;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 10px 30px;
+    margin: 20px 0;
+  }
+
+  .f-text {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 0px;
+    letter-spacing: -0.04em;
+    color: #303031;
+  }
+
+  .f-list {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #303031;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .f-listBod {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .f-listBod a {
+    text-decoration: none;
+    color: #333;
   }
 
   .f-list-item {
@@ -844,7 +882,7 @@ h6 {
     color: #ffffff;
     font-family: Roboto Slab;
     font-weight: 500;
-   padding: 12px 14px;
+    padding: 12px 14px;
     border-radius: 8px;
     cursor: pointer;
     width: 40%;
@@ -900,7 +938,7 @@ h6 {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
     letter-spacing: -0.02em;
     color: #303031;
     width: 450px;
@@ -965,7 +1003,7 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 14px;
+    font-size: 12px;
     padding: 0px 0px 0px 10px;
   }
 
@@ -978,7 +1016,7 @@ h6 {
   .story-section .story-cont .story-board .board .members .member-name {
     font-family: Roboto Slab;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     /* identical to box height, or 162% */
     letter-spacing: -0.02em;
 
@@ -990,7 +1028,7 @@ h6 {
     /* 100 SHARES */
     font-family: Roboto Slab;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: -0.02em;
     color: #66645e;
   }
@@ -998,14 +1036,20 @@ h6 {
   .story-section .story-cont .box {
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 350px;
     border: 3px solid #303031;
     border-radius: 16px;
     padding: 2%;
   }
 
   .story-section .story-cont .box:nth-child(1) {
-    margin: 0 8% 0 0;
+    margin: 0 6px 0 0;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #303031;
+    border-radius: 16px;
+    padding: 2%;
   }
 
   .story-section .story-cont .box .box-header {
@@ -1045,11 +1089,10 @@ h6 {
 
   h3 {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   h6 {
-    font-weight: 900;
     font-size: 12px;
     color: #66645e;
   }
@@ -1065,19 +1108,19 @@ h6 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .story-section .story-cont .box .btn {
-    padding: 4px 15px;
+    padding: 4px 12px;
     background: #303031;
     border-radius: 16px;
     color: white;
-    width: 170px;
+    width: 100%;
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     border: none;
   }
 
@@ -1099,8 +1142,8 @@ h6 {
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
-    line-height: 64px;
+    font-size: 30px;
+    line-height: 44px;
     text-align: center;
     color: #71a894;
     margin: 0 0 40px 0;
@@ -1183,7 +1226,7 @@ h6 {
     font-style: normal;
     font-weight: bold;
     font-size: 9px;
-    line-height: 16px;
+    line-height: 13px;
 
     /* or 125% */
     color: #71a894;
@@ -1198,6 +1241,20 @@ h6 {
     flex-direction: row;
     width: 100%;
     flex-grow: 2;
+  }
+
+  .nav .nav-toggler {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s;
+  }
+
+  .nav .nav-toggler .fa, .nav .nav-toggler .fas {
+    font-size: 20px;
   }
 
   .logo-large {
@@ -1225,28 +1282,44 @@ h6 {
     color: #303031;
   }
 
-  .nav-list,
-  .nav-listBod {
+  .nav-list{
     display: none;
-    width: 100%;
-    position: relative;
-    margin-right: -20px;
+    width: 70%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: rgb(245, 239, 239);
+    z-index: 2;
+    margin: 0;
+    box-shadow: 1px 1px 3px #66645e;
+    z-index: 9;
   }
-
+  
   .nav-listBod {
-    list-style-type: none;
+    width: 100%;
     display: flex;
-    margin: 20px 0px;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
     justify-content: space-evenly;
+    padding: 0;
   }
 
   .nav-list-item {
     font-family: Roboto;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     color: #303031;
     cursor: pointer;
+    margin: 4% 0;
+    padding: 10px;
+  }
+
+  .nav-list-item:hover{
+    background: #d8ba5f;
+    padding: 10px;
   }
 
   .container {
@@ -1289,7 +1362,7 @@ h6 {
   }
 
   .container-2 .title-2 {
-    font-size: 30px;
+    font-size: 25px;
     color: #71a894;
     margin-bottom: 10px;
     font-weight: 400;
@@ -1329,7 +1402,7 @@ h6 {
   }
 
   .container-3 .flex .title-3 {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 32px;
     color: #71a894;
   }
@@ -1382,7 +1455,7 @@ h6 {
     color: #ffffff;
     font-family: Roboto Slab;
     font-weight: 500;
-   padding: 10px 12px;
+    padding: 10px 12px;
     border-radius: 8px;
     cursor: pointer;
     width: 50%;
@@ -1426,7 +1499,7 @@ h6 {
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: normal;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 28px;
     color: #71a894;
     margin: 0px 0px 10px 0px;
@@ -1437,7 +1510,7 @@ h6 {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 26px;
     letter-spacing: -0.02em;
     color: #303031;
     width: 100%;
@@ -1450,6 +1523,7 @@ h6 {
     justify-content: space-evenly;
     align-items: center;
     z-index: 0;
+    margin: 4em 0 2% 0;
   }
 
   .story-section .story-cont .story-board .board {
@@ -1503,7 +1577,7 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 14px;
+    font-size: 12px;
     padding: 0px 0px 0px 10px;
   }
 
@@ -1516,7 +1590,7 @@ h6 {
   .story-section .story-cont .story-board .board .members .member-name {
     font-family: Roboto Slab;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     /* identical to box height, or 162% */
     letter-spacing: -0.02em;
 
@@ -1528,7 +1602,7 @@ h6 {
     /* 100 SHARES */
     font-family: Roboto Slab;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: -0.02em;
     color: #66645e;
   }
@@ -1540,11 +1614,12 @@ h6 {
     border: 3px solid #303031;
     border-radius: 16px;
     padding: 5%;
-    margin: 10% 0;
+    margin: 8em 0 0 0;
   }
 
   .story-section .story-cont .box:nth-child(1) {
-    margin: 0%;
+    margin: 4em 0 2em 0;
+    padding: 5%;
   }
 
   .story-section .story-cont:nth-child(2) {
@@ -1593,7 +1668,6 @@ h6 {
   }
 
   h6 {
-    font-weight: 900;
     font-size: 12px;
     color: #66645e;
   }
@@ -1643,7 +1717,7 @@ h6 {
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 40px;
     text-align: center;
     width: 350px;
@@ -1871,7 +1945,7 @@ h6 {
 
   .container .right .title,
   .container .left .title {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .container .right .text-1,
@@ -1893,7 +1967,7 @@ h6 {
   }
 
   .container-2 .title-2 {
-    font-size: 24px;
+    font-size: 20px;
     color: #71a894;
     margin-bottom: 10px;
     font-weight: 400;
@@ -1933,7 +2007,7 @@ h6 {
   }
 
   .container-3 .flex .title-3 {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 32px;
     color: #71a894;
   }
@@ -1986,7 +2060,7 @@ h6 {
     color: #ffffff;
     font-family: Roboto Slab;
     font-weight: 500;
-   padding: 8px 10px;
+    padding: 8px 10px;
     border-radius: 8px;
     cursor: pointer;
     width: 40%;
@@ -2009,7 +2083,6 @@ h6 {
     justify-content: space-between;
     width: 100%;
     margin: 3% 0;
-    align-items: center;
   }
 
   .story-section .story-cont .story-card {
@@ -2042,7 +2115,7 @@ h6 {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
     letter-spacing: -0.02em;
     color: #303031;
     width: 100%;
@@ -2108,7 +2181,7 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 14px;
+    font-size: 12px;
     padding: 0px 0px 0px 10px;
   }
 
@@ -2121,11 +2194,9 @@ h6 {
   .story-section .story-cont .story-board .board .members .member-name {
     font-family: Roboto Slab;
     font-style: normal;
-    font-weight: 500;
-    /* identical to box height, or 162% */
+    font-weight: 400;
     letter-spacing: -0.02em;
 
-    /* Gray */
     color: #66645e;
   }
 
@@ -2133,7 +2204,7 @@ h6 {
     /* 100 SHARES */
     font-family: Roboto Slab;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: -0.02em;
     color: #66645e;
   }
@@ -2145,11 +2216,18 @@ h6 {
     border: 3px solid #303031;
     border-radius: 16px;
     padding: 4%;
-    margin: 3em 0;
+    margin: 6em 0;
   }
 
   .story-section .story-cont .box:nth-child(1) {
     margin: 2em 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #303031;
+    border-radius: 16px;
+    margin: 4em 0;
+    padding: 4%;
   }
 
   .story-section .story-cont .box .box-header {
@@ -2193,7 +2271,6 @@ h6 {
   }
 
   h6 {
-    font-weight: 900;
     font-size: 12px;
     color: #66645e;
   }
@@ -2247,7 +2324,7 @@ h6 {
     line-height: 24px;
     /* or 178% */
     text-align: center;
-
+    width: 100%;
     color: #71a894;
   }
 
