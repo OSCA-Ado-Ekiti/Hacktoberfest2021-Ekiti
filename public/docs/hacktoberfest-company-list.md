@@ -18,48 +18,43 @@ slug: /hacktoberfest-company-list
 16. Execute Big
 17. SENTRY
 18. [Appsmith](https://www.appsmith.com/blog/hacktoberfest-2021-let-the-contributions-begin)
-19. Alpaca
-20. ArchiveSpace
-21. Appwrite
-22. AutoDL
-23. Amplication
-25. Bitrise
-26. Boa Constrictor
-27. Bridgecrew
-28. Codedamn
-29. Codesee
-30. Creative Tim
-31. DagsHub
-32. Datenanfragen.de e. V
-33. devICT
-34. Devtron
-35. Earthly
-36. Flyte
-37. Globo
-39. Hasura
-40. K6
-41. Legesher
-42. LoginRadius
-43. Mattermost
-44. MayaData & OpenEBS
+19. [Alpaca](https://alpaca.markets/blog/hacktoberfest-2021-celebrate-open-source-with-alpaca/)
+20. [ArchiveSpace](https://archivesspace.org/archives/7147)
+21. [Appwrite](https://hacktoberfest.appwrite.io/)
+22. [AutoDL](https://dev.to/mctechie/autodl-celebrates-hacktoberfest-2021-25da)
+23. [Amplication](https://github.com/amplication/amplication/issues?q=is%3Aopen+is%3Aissue+label%3AHacktoberfest)
+25. [Bitrise](https://www.bitrise.io/hacktoberfest-2021)
+26. [Boa Constrictor](https://automationpanda.com/2021/10/04/boa-constrictor-is-doing-hacktoberfest-2021/)
+27. [Bridgecrew](https://bridgecrew.io/blog/happy-hacktoberfest-2021/)
+28. [Codedamn](https://codedamn.com/projects)
+29. [Codesee](https://www.oss-port.com/swag/)
+30. [Creative Tim](https://www.creative-tim.com/blog/creative-tim/open-source-projects-for-hacktoberfest/)
+31. [DagsHub](https://dagshub.com/blog/hacktoberfest-x-dagshub-2/)
+32. [Datenanfragen.de e. V](https://www.datarequests.org/blog/hacktoberfest-2021/)
+33. [devICT](https://devict-hacktoberfest.herokuapp.com/)
+34. [Devtron](https://github.com/devtron-labs/hacktoberfest2021)
+35. [Earthly](https://earthly.dev/blog/hacktoberfest-2021/)
+36. [Flyte](https://blog.flyte.org/meet-flyte-at-hacktoberfest-2021)
+37. [Globo](https://hacktoberfest.globo.com/)
+39. [Hasura](https://hasura.io/blog/celebrating-open-source-with-hasura/)
+40. [K6](https://k6.io/blog/hacktoberfest-at-k6/)
+41. [Legesher](https://github.com/legesher/legesher/issues/90)
+42. [LoginRadius](https://www.loginradius.com/blog/async/hacktoberfest-2021/)
+43. [Mattermost](https://handbook.mattermost.com/contributors/contributors/ways-to-contribute/hacktoberfest2021)
+44. [MayaData & OpenEBS](https://mayadata.io/hacktoberfest-2021)
 45. [Medusa](https://www.medusa-commerce.com/post/medusa-hacktoberfest-announcement)
 46. [MeiliSearch](https://blog.meilisearch.com/contribute-hacktoberfest-2021/)
-47. Memorial Computer Science Society
-48. MindsDB
-49. NativeScript
-50. NMF.earth
-51. Ory
+47. [Memorial Computer Science Society](https://muncompsci.ca/events/hacktoberfest-2021/)
+48. [MindsDB](https://mindsdb.com/hacktoberfest/)
+49. [NativeScript](https://blog.nativescript.org/hacktoberfest-2021/index.html)
+50. [NMF.earth](https://medium.com/@nmf_earth/hacktoberfest-2021-carbon-diary-sustainable-guide-32fb4e5323c1)
+51. [Ory](https://github.com/search?q=topic%3Ahacktoberfest+org%3AOry&type=Repositories)
 52. [Paypal](https://github.com/paypal/hacktoberfest)
-53. Stack Builders 
-54. StepZen
-55. Supabase
-56. Switchblade
-57. Symbl.ai
-58. ToolJet
+53. [Stack Builders](https://www.stackbuilders.com/news/it-s-hacktoberfest-time) 
+54. [StepZen](https://stepzen.com/blog/stepzen-stickers-the-code-behind-the-fun)
+55. [Supabase](https://supabase.io/blog/2021/09/28/supabase-hacktoberfest-hackathon-2021)
+56. [Switchblade](https://github.com/SwitchbladeBot/switchblade/issues)
+57. [Symbl.ai](https://github.com/symblai/symbl-docs/issues)
+58. [ToolJet](https://github.com/ToolJet/ToolJet)
 59. [Zup](https://insights.zup.com.br/hacktoberfest)
-24. Boa Constrictor
-25. Bridgecrew
-26. Bitrise
-27. Codedamn
-65. Sourcegraph
-6
+60. Sourcegraph
