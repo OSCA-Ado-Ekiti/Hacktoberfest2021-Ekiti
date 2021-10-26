@@ -34,5 +34,6 @@ How To Create A Pull Request
 
 7. When you're done contributing click "Commit"
 
-8. Lastly create pull request
+8. Click pull request on your repository to compair and pull request
+9. Lastly Create pull request
 
