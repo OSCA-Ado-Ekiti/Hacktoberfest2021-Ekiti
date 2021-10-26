@@ -23,7 +23,6 @@ slug: /hacktoberfest-company-list
 21. Appwrite
 22. AutoDL
 23. Amplication
-24. Bagisto
 25. Bitrise
 26. Boa Constrictor
 27. Bridgecrew
@@ -57,8 +56,7 @@ slug: /hacktoberfest-company-list
 56. Switchblade
 57. Symbl.ai
 58. ToolJet
-59. Zup
-23. Bagisto
+59. [Zup](https://insights.zup.com.br/hacktoberfest)
 24. Boa Constrictor
 25. Bridgecrew
 26. Bitrise
