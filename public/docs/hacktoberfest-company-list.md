@@ -8,10 +8,7 @@ slug: /hacktoberfest-company-list
 3.  Open collective
 4.  [DEV](https://dev.to/devteam/hacktoberfest-2021-is-here-4a3l)
 5.  [Mattermost](https://mattermost.com/blog/hacktoberfest-2021/)
-6.
 7.  [TIDELIFT](https://blog.tidelift.com/youre-invited-whats-on-the-maintainer-wishlist-for-hacktoberfest)
-8. 
-9.  HACKER FUND
 10. MLH
 11. Wizard zines
 12. tree-nation 
@@ -20,7 +17,7 @@ slug: /hacktoberfest-company-list
 15. [Milvus](https://milvus.io/hacktoberfest-2021)
 16. Execute Big
 17. SENTRY
-18. Appsmith
+18. [Appsmith](https://www.appsmith.com/blog/hacktoberfest-2021-let-the-contributions-begin)
 19. Alpaca
 20. ArchiveSpace
 21. Appwrite
@@ -40,7 +37,6 @@ slug: /hacktoberfest-company-list
 35. Earthly
 36. Flyte
 37. Globo
-38. Grouparoo
 39. Hasura
 40. K6
 41. Legesher
