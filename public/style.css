@@ -690,6 +690,28 @@ h6 {
     width: 100%;
   }
 
+  /* second section */
+
+  .sec-2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .title-2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #71a894;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .text-2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+  }
+
   /* story section */
   .story-section .story-cont {
     display: flex;
@@ -1133,18 +1155,6 @@ h6 {
     /* margin-bottom: 24px; */
   }
 
-  /* .hero-sect .hero-text .progress {
-    background-color: #71a894;
-    text-align: center;
-    font-size: 16px;
-    color: #ffffff;
-    font-family: Roboto Slab;
-    font-weight: 500;
-    padding: 10px 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 50%;
-  } */
 
   .hero-sect .hero-image {
     position: relative;
@@ -1588,18 +1598,6 @@ h6 {
     /* margin-bottom: 24px; */
   }
 
-  /* .hero-sect .hero-text .progress {
-    background-color: #71a894;
-    text-align: center;
-    font-size: 14px;
-    color: #ffffff;
-    font-family: Roboto Slab;
-    font-weight: 500;
-    padding: 8px 10px;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 40%;
-  } */
 
   .hero-sect .hero-image {
     position: relative;
@@ -1994,29 +1992,7 @@ h6 {
   }
 }
 
-@media (max-width: 763px) {
-  /* second section */
 
-  .sec-2 {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .title-2 {
-    font-size: 24px;
-    line-height: 30px;
-    color: #71a894;
-    margin-bottom: 10px;
-    font-weight: 400;
-    text-align: center;
-  }
-  .text-2 {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-  }
-}
 
 @media (max-width: 591px) {
   /* first section */
