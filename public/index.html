@@ -1,153 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- BOOTSTRAP CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <title>Hacktoberfest Ekiti 2021</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
+    <!-- <link rel="shortcut icon" href="./icons/Hacktoberfest-Ekiti.png" type="image/x-icon" /> -->
+    <link rel="shortcut icon" href="./icons/Hacktoberfest-Ekiti.ico" type="image/x-icon" />
     <title>Hacktoberfest Ekiti 2021</title>
-  </head>
-  <body>
-    <nav class="nav">
-      <div class="nav-header">
-        <div class="logo">
-          <div class="logo-large">
-            <img
-              class="logo-image"
-              src="./icons/Hacktoberfest-Ekiti.png"
-              alt=""
-            />
-          </div>
-          <div class="logo-text">
-            <h4>Hacktoberfest'21 Ekiti</h4>
-          </div>
-        </div>
-        <span class="nav-toggler" id="toggler">
-          <i class="fa fa-bars" aria-hidden="true" id="navIc"></i>
-        </span>
-        <div class="nav-list">
-          <ul class="nav-listBod">
-            <li class="nav-list-item">
-              <a
-                href="https://hacktoberfest-ekiti.web.app/documentation/why-open-source"
-                >Why Open Source?</a
-              >
+</head>
+
+<body id="bootstrap-override">
+  <div class="container-fluid">
+
+    <!-- ======= NAVBAR ======= -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-white mx-lg-4 mx-sm-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="logo-image" src="./icons/Hacktoberfest-Ekiti.png" alt="">
+          <span class="logo-text">Hacktoberfest'21 Ekiti</span>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"
+                href="https://hacktoberfest-ekiti.web.app/documentation/why-open-source">Why
+                Open Source?</a>
             </li>
-            <li class="nav-list-item">Story Time</li>
-            <li class="nav-list-item">
-              <a href="#" data-value="contributor">Contributors</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Story Time</a>
             </li>
-            <li class="nav-list-item">Make a pull request</li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-value="contributor">Contributors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Make a pull request</a>
+            </li>
           </ul>
         </div>
-      </div>
     </nav>
+    <!-- ======= END OF NAVBAR ======= -->
 
-    <!-- hero Section -->
+    <!-- ======= HERO SECTION ======= -->
     <section class="hero-sect">
       <div class="hero-text">
-        <h1 class="hero-h1">
-          Open Source is here <br />
-          One contribution at a time.
-        </h1>
-        <p class="hero-p">
-          Log in with your GitHub or GitLab account at
-          hacktoberfest.digitalocean.com to track your progress
-        </p>
-        <div class="progress">Check Progress</div>
+        <h1 class="hero-h1">Open Source is here <br /> One contribution at a time.</h1>
+        <p class="hero-p">Log in with your GitHub or GitLab account at hacktoberfest.digitalocean.com to track your
+          progress</p>
+        <!-- <a href="https://hacktoberfest.digitalocean.com/profile">
+          <div class="progress">Check Progress</div>
+        </a> -->
+        <button class="hero-btn">
+          <a href="https://hacktoberfest.digitalocean.com/profile" class="text-white">
+          Check Progress
+          </a>
+        </button>
       </div>
       <div class="hero-image">
-        <img src="./icons/Illustration.png" class="illustration" alt="" />
+        <img src="./icons/Illustration.png" class="illustration" alt="">
       </div>
     </section>
+    <!-- ======= END OF HERO SECTION ======= -->
 
-    <!-- first Section -->
-    <section class="container">
-      <div class="left">
-        <h2 class="title">What is Open Source?</h2>
-        <p class="text-1">
-          Open source refers to source code that is publicly accessible and
-          allows anyone to inspect, modify or learn from it. Open source
-          projects encourages collaboration and the freedom to use the software
-          for any purpose you wish.
-        </p>
+
+    <!-- ======= FIRST SECTION ======= -->
+    <div class="row my-5">
+      <div class="col left">
+        <div class="m-lg-5 p-lg-3 p-sm-1">
+          <h2 class="title mb-4">What is Open Source?</h2>
+          <p class="text-1">Open source refers to source code that is publicly accesible
+            and allows anyone to inspect, modify or learn from it.
+            Open source projects encourages collaboration and the freedom
+            to use the software for any purpose you wish. </p>
+        </div>
       </div>
 
-      <div class="right">
-        <h2 class="title">What is Hacktoberfest?</h2>
-        <p class="text-1">
-          Hacktober is a month-long celebration of open-source software by
-          DigitalOcean that encourages participation in giving back to the
-          open-source community. Developers get involved by completing pull
-          requests, participating in events, and donating to open source
-          projects. During this event, anyone can support open source by
-          contributing changes and earn limited-edition swag
+      <div class="col right">
+        <div class="m-lg-5 p-lg-3 p-sm-1">
+          <h2 class="title mb-4">What is Hacktoberfest? </h2>
+          <p class="text-1">Hacktober is a month-long celebration of open-source
+            software by DigitalOcean that encourages participation in
+            giving back to the open-source community. Developers get
+            involved by completing pull requests, participating in
+            events, and donating to open source projects. During this
+            event, anyone can support open source by contributing
+            changes and earn limited-edition swag
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ======= END OF FIRST SECTION ======= -->
+
+    <!-- ======= SECOND SECTION ======= -->
+    <div class="row my-lg-5">
+      <div class="col sec-2">
+        <h1 class="title-2 mb-1">How to contribute to Source</h1>
+        <p class="text-2">Make meaningful open-source contributions by improving the code quality of thousands of
+          open-source projects you love. Making your first contribution an often be intimidating.
+          Start with easy, but meaningful, improvements to your favorite project - and then dig deeper.
         </p>
       </div>
-    </section>
+    </div>
+    <!-- ======= END OF SECOND SECTION ======= -->
 
-    <!-- second section -->
-    <section class="container-2">
-      <h1 class="title-2">How to contribute to Source</h1>
-      <p class="text-2">
-        Make meaningful open-source contributions by improving the code quality
-        of thousands of open-source projects you love. Making your first
-        contribution an often be intimidating. Start with easy, but meaningful,
-        improvements to your favorite project - and then dig deeper.
-      </p>
-    </section>
+    <!-- ======= THIRD SECTION ======= -->
+    <div class="container my-5">
+      <div class="row third-sec">
+        <div class="col text-center flex-1">
+          <img class="icons" src="./icons/Create Account Icon.png" alt="">
+          <h3 class="title-3">Create a GitHub account</h3>
+          <p class="text">If you don't have one, create a GitHub or GitLab account and register on the official
+            Hacktoberfest website
+          </p>
+        </div>
 
-    <!-- third section -->
-    <section class="container-3">
-      <div class="flex">
-        <img class="icons" src="./icons/Create Account Icon.png" alt="" />
-        <h3 class="title-3">Create a GitHub account</h3>
-        <p class="text">
-          If you don't have one, create a GitHub or GitLab account and register
-          on the official Hacktoberfest website
-        </p>
+        <div class="col text-center flex-2">
+          <img class="icons" src="./icons/Set up your profile Icon.png" alt="">
+          <h3 class="title-3">Set up your Profile</h3>
+          <p class="text">Set up your profile, read our participation rules and values, find the project(s) you'd like
+            to
+            contribute to</p>
+        </div>
+
+        <div class="col text-center flex-3">
+          <img class="icons" src="./icons/Start contributing Icon.png" alt="">
+          <h3 class="title-3">Start contributing!</h3>
+          <p class="text">Track your pull request progress on your profile page, submit at least four pull requests to
+            any
+            public GitHub or GitLab repository that s classified with the Hacktoberfest topic.</p>
+        </div>
       </div>
+    </div>
+    <!-- ======= END OF THIRD SECTION ======= -->
 
-      <div class="flex">
-        <img class="icons" src="./icons/Set up your profile Icon.png" alt="" />
-        <h3 class="title-3">Set up your Profile</h3>
-        <p class="text">
-          Set up your profile, read our participation rules and values, find the
-          project(s) you'd like to contribute to
-        </p>
-      </div>
-
-      <div class="flex">
-        <img class="icons" src="./icons/Start contributing Icon.png" alt="" />
-        <h3 class="title-3">Start contributing!</h3>
-        <p class="text">
-          Track your pull request progress on your profile page, submit at least
-          four pull requests to any public GitHub or GitLab repository that s
-          classified with the Hacktoberfest topic.
-        </p>
-      </div>
-    </section>
 
     <!-- middle lower section for contributor story -->
     <section class="story-section">
       <div class="story-cont">
         <div class="story-card">
-          <img src="../svg-designs/Read the stories Icon.svg" alt="story" />
-          <span class="story-heading"
-            >Read the stories of some of our Contributors</span
-          >
-          <span class="story-body"
-            >It’s the early days, you just had a long conversation with two
+          <img src="./icons/Read the stories Icon.svg" alt="story" />
+          <span class="story-heading">Read the stories of some of our Contributors</span>
+          <span class="story-body">It’s the early days, you just had a long conversation with two
             friends about a meaningful challenge that you’re all passionate
             about and have a potential solution for. You’re ready to embark the
-            startup journey.</span
-          >
+            startup journey.</span>
         </div>
         <div class="story-board" id="storyBoard"></div>
       </div>
@@ -159,38 +168,33 @@
               <h3>Dilon Kydd</h3>
               <h6 class="shares">Front-End Developer</h6>
             </span>
-          </div>
+            </div>
 
-          <div class="box-content">
-            Hey guys, I love what I'm doing and I'm convinced that together
-            we'll achieve amazing things.
-          </div>
+            <div class="box-content">
+                Hey guys, I love what I'm doing and I'm convinced that together we'll achieve amazing things.
+            </div>
 
-          <div class="box-log">
-            <span>
+            <div class="box-log">
+                <span>
               <p>Projects</p>
               <p>10,000</p>
             </span>
 
-            <span>
+                <span>
               <p>Pull Requests</p>
               <p>20</p>
             </span>
-          </div>
+            </div>
 
-          <button class="btn">See Contribution</button>
+            <button class="btn">See Contribution</button>
         </div>
         <div class="story-card">
           <img src="./icons/Icon (1).png" alt="png" />
-          <span class="story-heading"
-            >Create a mockup of the Hacktoberfest Ekiti web app</span
-          >
-          <span class="story-body"
-            >You've designed and delivered an MVP, and some investors and
+          <span class="story-heading">Create a mockup of the Hacktoberfest Ekiti web app</span>
+          <span class="story-body">You've designed and delivered an MVP, and some investors and
             advisors are interested in having a chat with. As Open Sources, you
             can onboard them seamlessly into your digital organization and align
-            them with your success.</span
-          >
+            them with your success.</span>
         </div>
       </div>
       <div class="story-cont">
@@ -199,7 +203,7 @@
           <span class="story-heading">
             Create footer section with HTML CSS and JavaScript
           </span>
-          <span class="story-body">
+            <span class="story-body">
             Making your first contribution can often be intimidating. Start with
             easy, but meaningful, improvements to your favorite project - and
             then dig deeper. Discover thousands of projects that have code
@@ -208,33 +212,33 @@
           </span>
         </div>
         <div class="box">
-          <div class="box-header">
-            <img src="./icons/Jassir Jonis 1.png" alt="" class="img" />
-            <span>
-              <h3>JohnDoe</h3>
+            <div class="box-header">
+                <img src="./icons/faithoni.jpg" alt="" class="img" />
+                <span>
+              <h3>Oni Faith</h3>
               <h6>UI/UX Designer</h6>
             </span>
-          </div>
+            </div>
 
-          <div class="box-content">
-            Hey guys, I love what I'm doing and I'm convinced together we'll
-            achieve amazing things.
-          </div>
+            <div class="box-content">
+                Hey guys, I love what I'm doing and I'm convinced together we'll achieve amazing things.
+            </div>
 
-          <div class="box-log">
-            <span>
+            <div class="box-log">
+                <span>
               <p>Projects</p>
-              <p>200</p>
+              <p>1</p>
             </span>
 
-            <span>
+                <span>
               <p>Pull Requests</p>
-              <p>6</p>
+              <p>9</p>
             </span>
           </div>
-          <button class="btn">See Contribution</button>
+          <button class="btn"><a
+              href="https://github.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti/pulls?q=is%3Apr+author%3Aonifaithayoola" class="text-white">See
+              Contribution</a></button>
         </div>
-      </div>
     </section>
 
     <!-- contributor section  -->
@@ -253,35 +257,35 @@
 
     <!-- ======= FOOTER ======= -->
     <footer class="footer">
-      <div class="f-header">
-        <h4 class="f-text">Hacktoberfest ‘21 Ekiti</h4>
-        <div class="f-list">
-          <ul class="f-listBod">
-            <a href="https://hacktoberfest-ekiti.web.app/documentation">
-              <li class="f-list-item">Documentation</li>
-            </a>
-            <a href="https://github.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti">
-              <li class="f-list-item">Github</li>
-            </a>
-            <a
-              href="https://twitter.com/osca_ado_ekiti/status/1446376966303723546?t=oSuUuycQv5Yd7DdH32YlGw&s=19"
-            >
-              <li class="f-list-item">Twitter</li></a
-            >
-            <a href=" https://hacktoberfest-ekiti.web.app/contact">
-              <li class="f-list-item">Contact Us</li>
-            </a>
-          </ul>
+        <div class="f-header">
+            <h4 class="f-text">Hacktoberfest ‘21 Ekiti</h4>
+            <div class="f-list">
+                <ul class="f-listBod">
+                    <a href="https://hacktoberfest-ekiti.web.app/documentation">
+                        <li class="f-list-item">Documentation</li>
+                    </a>
+                    <a href="https://github.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti">
+                        <li class="f-list-item">Github</li>
+                    </a>
+                    <a href="https://twitter.com/osca_ado_ekiti/status/1446376966303723546?t=oSuUuycQv5Yd7DdH32YlGw&s=19">
+                        <li class="f-list-item">Twitter</li>
+                    </a>
+                    <a href=" https://hacktoberfest-ekiti.web.app/contact">
+                        <li class="f-list-item">Contact Us</li>
+                    </a>
+                </ul>
+            </div>
         </div>
-      </div>
     </footer>
-  </body>
-  <script
-    type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
-  <script src="index.js"></script>
+  </div>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="index.js"></script>
+
 </html>
