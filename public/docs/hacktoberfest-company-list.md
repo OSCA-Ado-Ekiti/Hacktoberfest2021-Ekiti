@@ -8,9 +8,9 @@ slug: /hacktoberfest-company-list
 3.  Open collective
 4.  [DEV](https://dev.to/devteam/hacktoberfest-2021-is-here-4a3l)
 5.  [Mattermost](https://mattermost.com/blog/hacktoberfest-2021/)
-6.  freshworks
-7.  TIDELIFT
-8.  Airtable
+6.
+7.  [TIDELIFT](https://blog.tidelift.com/youre-invited-whats-on-the-maintainer-wishlist-for-hacktoberfest)
+8. 
 9.  HACKER FUND
 10. MLH
 11. Wizard zines
