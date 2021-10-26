@@ -2,7 +2,7 @@ module.exports = {
   title: 'HacktoberFest Ekiti 2021 Docs',
   url: 'https://hacktoberfest-ekiti.web.app/',
   baseUrl: '/documentation/',
-  favicon: 'img/favicon.png',
+  favicon: './icons/Hacktoberfest-Ekiti.ico',
   organizationName: 'OSCA-Ado-Ekiti',
   projectName: 'documentation',
   scripts: [
