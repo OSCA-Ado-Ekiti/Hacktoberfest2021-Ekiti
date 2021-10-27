@@ -13,7 +13,7 @@ slug: /hacktoberfest-company-list
 11. Wizard zines
 12. tree-nation 
 13. [CAMUNDA](https://camunda.com/hacktoberfest2021/)
-14. Sourcegraph
+14. [Sourcegraph](https://dev.to/sourcegraph/happy-hacktoberfest-from-sourcegraph-2dc3)
 15. [Milvus](https://milvus.io/hacktoberfest-2021)
 16. Execute Big
 17. [SENTRY](https://blog.sentry.io/2021/10/05/hacktoberfest-is-upon-us)
@@ -57,4 +57,4 @@ slug: /hacktoberfest-company-list
 57. [Symbl.ai](https://github.com/symblai/symbl-docs/issues)
 58. [ToolJet](https://github.com/ToolJet/ToolJet)
 59. [Zup](https://insights.zup.com.br/hacktoberfest)
-60. Sourcegraph
+60. [Sourcegraph](https://dev.to/sourcegraph/happy-hacktoberfest-from-sourcegraph-2dc3)
