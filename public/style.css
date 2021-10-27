@@ -606,6 +606,22 @@ h6 {
   border: none;
 }
 
+.see-more {
+  display: flex;
+  position: relative;
+  right: 0;
+  margin: -3% 0 0 0;
+  width: 100%;
+  padding: 0 85px;
+  justify-content: flex-end;
+}
+
+.see-more a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
 /* media queries */
 @media screen and (max-width: 768px) {
   .logo-image {
@@ -1268,22 +1284,22 @@ h6 {
     margin-top: 64px;
     margin-bottom: 24px;
   }
-}
 
-.see-more {
-  display: flex;
-  position: relative;
-  right: 0;
-  margin: -6% 0 0 0;
-  width: 100%;
-  padding: 0 30px;
-  justify-content: flex-end;
-}
-
-.see-more a {
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
+  .see-more {
+    display: flex;
+    position: relative;
+    right: 0;
+    margin: -6% 0 0 0;
+    width: 100%;
+    padding: 0 30px;
+    justify-content: flex-end;
+  }
+  
+  .see-more a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -1761,7 +1777,7 @@ h6 {
     right: 0;
     margin: -12% 0 0 0;
     width: 100%;
-    padding: 0 25px;
+    padding: 0 18px;
     justify-content: flex-end;
   }
 
