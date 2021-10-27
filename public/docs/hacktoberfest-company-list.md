@@ -5,18 +5,18 @@ slug: /hacktoberfest-company-list
 
 1.  [GitHub](https://github.blog/2021-10-07-githubs-guide-hacktoberfest-2021/)
 2.  [GitLab](https://about.gitlab.com/blog/2021/10/01/join-us-for-hacktoberfest-2021/)
-3.  Open collective(https://opencollective.com/opensource/updates/add-the-hacktoberfest-label-to-your-collective-to-participate-in-hacktoberfest)
+3.  [Open collective](https://opencollective.com/opensource/updates/add-the-hacktoberfest-label-to-your-collective-to-participate-in-hacktoberfest)
 4.  [DEV](https://dev.to/devteam/hacktoberfest-2021-is-here-4a3l)
 5.  [Mattermost](https://mattermost.com/blog/hacktoberfest-2021/)
 7.  [TIDELIFT](https://blog.tidelift.com/youre-invited-whats-on-the-maintainer-wishlist-for-hacktoberfest)
-10. MLH(https://organize.mlh.io/participants/events/7494-hacking-hacktoberfest)
+10. [MLH](https://organize.mlh.io/participants/events/7494-hacking-hacktoberfest)
 11. Wizard zines
 12. tree-nation 
 13. [CAMUNDA](https://camunda.com/hacktoberfest2021/)
 14. Sourcegraph
 15. [Milvus](https://milvus.io/hacktoberfest-2021)
 16. Execute Big
-17. SENTRY(https://blog.sentry.io/2021/10/05/hacktoberfest-is-upon-us)
+17. [SENTRY](https://blog.sentry.io/2021/10/05/hacktoberfest-is-upon-us)
 18. [Appsmith](https://www.appsmith.com/blog/hacktoberfest-2021-let-the-contributions-begin)
 19. [Alpaca](https://alpaca.markets/blog/hacktoberfest-2021-celebrate-open-source-with-alpaca/)
 20. [ArchiveSpace](https://archivesspace.org/archives/7147)
