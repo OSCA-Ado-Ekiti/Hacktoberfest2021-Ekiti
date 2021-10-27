@@ -58,3 +58,4 @@ slug: /hacktoberfest-company-list
 58. [ToolJet](https://github.com/ToolJet/ToolJet)
 59. [Zup](https://insights.zup.com.br/hacktoberfest)
 60. [Sourcegraph](https://dev.to/sourcegraph/happy-hacktoberfest-from-sourcegraph-2dc3)
+61. .[Bitriseblog](https://blog.bitrise.io/post/hacktoberfest-2021-at-bitrise-join-the-challenge-and-win-awesome-swag?utm_source=twitter&utm_medium=web&utm_campaign=Hacktoberfest2021)
