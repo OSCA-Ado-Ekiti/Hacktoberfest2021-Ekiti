@@ -767,6 +767,32 @@ h6 {
     width: 100%;
   }
 
+.header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
   .illustration {
     height: 100%;
     width: 100%;
@@ -2332,3 +2358,35 @@ h6 {
     /* margin-bottom: 5px; */
   }
 }
+/* responsive code */
+
+@media (max-width: 991px) {
+  #header {
+    height: 80vh;
+    text-align: center;
+  }
+
+  #header .header-img {
+    text-align: center;
+  }
+  #header .header-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    margin-top: 20px;
+  }
+  #header h1 {
+    font-size: 28px;
+  }
+  #header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #header .header-img img {
+    width: 70%;
+  }
+}
+
