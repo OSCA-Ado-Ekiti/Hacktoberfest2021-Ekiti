@@ -15,7 +15,7 @@ slug: /hacktoberfest-company-list
 13. [CAMUNDA](https://camunda.com/hacktoberfest2021/)
 14. [Sourcegraph](https://dev.to/sourcegraph/happy-hacktoberfest-from-sourcegraph-2dc3)
 15. [Milvus](https://milvus.io/hacktoberfest-2021)
-16. Execute Big
+16. .[Execute Big](https://executebig.org/)
 17. [SENTRY](https://blog.sentry.io/2021/10/05/hacktoberfest-is-upon-us)
 18. [Appsmith](https://www.appsmith.com/blog/hacktoberfest-2021-let-the-contributions-begin)
 19. [Alpaca](https://alpaca.markets/blog/hacktoberfest-2021-celebrate-open-source-with-alpaca/)
@@ -58,3 +58,4 @@ slug: /hacktoberfest-company-list
 58. [ToolJet](https://github.com/ToolJet/ToolJet)
 59. [Zup](https://insights.zup.com.br/hacktoberfest)
 60. [Sourcegraph](https://dev.to/sourcegraph/happy-hacktoberfest-from-sourcegraph-2dc3)
+61. .[Bitriseblog](https://blog.bitrise.io/post/hacktoberfest-2021-at-bitrise-join-the-challenge-and-win-awesome-swag?utm_source=twitter&utm_medium=web&utm_campaign=Hacktoberfest2021)
