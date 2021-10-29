@@ -39,7 +39,13 @@ $(document).ready(() => {
                     location.reload();
                 })
                 return slicedContent = data.slice(0, 8);
-            } else if (window.innerWidth <= 425) {
+            } else if (window.innerWidth === 571) {
+                $(window).on('resize', () => {
+                    location.reload();
+                })
+                return slicedContent = data.slice(0, 6);
+            }
+            else if (window.innerWidth >= 360) {
                 $(window).on('resize', () => {
                     location.reload();
                 })
