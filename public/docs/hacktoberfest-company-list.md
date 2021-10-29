@@ -10,7 +10,6 @@ slug: /hacktoberfest-company-list
 5.  [Mattermost](https://mattermost.com/blog/hacktoberfest-2021/)
 7.  [TIDELIFT](https://blog.tidelift.com/youre-invited-whats-on-the-maintainer-wishlist-for-hacktoberfest)
 10. [MLH](https://organize.mlh.io/participants/events/7494-hacking-hacktoberfest)
-11. Wizard zines
 12. [tree-nation](https://tree-nation.com/profile/fundraising/digitalocean)
 13. [CAMUNDA](https://camunda.com/hacktoberfest2021/)
 14. [Sourcegraph](https://dev.to/sourcegraph/happy-hacktoberfest-from-sourcegraph-2dc3)
