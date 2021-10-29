@@ -16,24 +16,25 @@ slug: /contributing-guidelines
 6. Lastly click "compare and pull request" and wait till it load another page where you enter your pull request title and description.
 
 
-How To Create A Pull Request
-1. Update your Repo by clicking fetch upstream on your repository
-![Screenshot_20211014-085246](https://user-images.githubusercontent.com/92284758/138958799-819eafa9-afdd-45f1-ad8f-ef427c5cc859.png)
+How To Create A Pull Request.
 
-2. Create a name for the new branch by clicking the branch box
+1. Update your Repo by clicking fetch upstream on your repository.
+![Screenshot_20211014-085246](https://user-images.githubusercontent.com/92284758/138958799-819eafa9-afdd-45f1-ad8f-ef427c5cc859.png).
+
+2. Create a name for the new branch by clicking the branch box.
 
 3. Hence click public
-![Screenshot_20211021-064300](https://user-images.githubusercontent.com/92284758/138959128-138b528c-fac9-48c0-a970-4fab8a6448d9.png)
+![Screenshot_20211021-064300](https://user-images.githubusercontent.com/92284758/138959128-138b528c-fac9-48c0-a970-4fab8a6448d9.png).
 
-4. Then click docs
+4. Then click docs.
 
 
-5. Then contribution-guideline.md
+5. Then contribution-guideline.md.
 
-6. After that notice a pen to edit (giving room for your contribution)
+6. After that notice a pen to edit (giving room for your contribution).
 
-7. When you're done contributing click "Commit"
+7. When you're done contributing click "Commit".
 
-8. Click pull request on your repository to compair and pull request
-9. Lastly Create pull request
+8. Click pull request on your repository to compair and pull request.
+9. Lastly Create pull request.
 
