@@ -26,3 +26,9 @@ Widget getListView() {
   );
   return listview;
 }
+ListTile(                            
+  leading: Icon(Icons.bubble_chart), 
+  title: Text("Tribes of Europa"),
+  subtitle: Text("Netflix"),
+  trailing: Icon(Icons.bubble_chart),
+),            
