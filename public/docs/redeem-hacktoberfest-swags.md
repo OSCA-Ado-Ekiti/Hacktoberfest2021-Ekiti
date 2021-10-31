@@ -6,3 +6,8 @@ After that visit https://shop.dev.to/products/dev-hacktoberfest-badge to redeem 
 
 
 
+After that visit https://shop.dev.to/products/dev-hacktoberfest-badge to redeem your Dev Hacktoberfest Badge.
+
+
+
+
