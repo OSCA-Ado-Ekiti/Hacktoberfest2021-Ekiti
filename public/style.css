@@ -592,12 +592,12 @@ h6 {
   }
 
   .f-text {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 16px;
   }
 
   .f-list-item {
-    font-size: 7px;
+    font-size: 10px;
     line-height: 12px;
     font-weight: normal;
     margin-right: 3px;
@@ -3004,6 +3004,19 @@ h6 {
     flex-direction: column;
     justify-content: space-evenly;
     color: #71a894;
+  }
+
+  .f-text {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .f-list-item {
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: normal;
+    margin-right: 3px;
+    margin-top: 8px;
   }
 
   h1,
