@@ -3166,3 +3166,319 @@ h6 {
   }
 
 }
+
+
+/* footer section */
+.footer-last-2{
+    display: flex;
+  
+  margin-left: 56px;
+  margin-right: 100px;
+}
+
+
+/* left footer side */
+.left-footer{
+flex: 1;
+padding: 10px;
+position: relative;
+}
+.footer-log{
+    position: absolute;
+width: 80px;
+height: 80px;
+left: 0px;
+top: 80px;
+bottom: 24px;
+
+/* Light Gold */
+
+background: #F3F0EA;
+border-radius: 100px;
+}
+.footer-title{
+    
+position: absolute;
+width: 644px;
+height: 128px;
+left: calc(50% - 644px/2);
+top: 186px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 64px;
+
+
+color: #303031;
+}
+.para-right{
+    position: absolute;
+width: 644px;
+height: 104px;
+left: calc(50% - 644px/2);
+top: 338px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+
+
+letter-spacing: -0.02em;
+
+
+
+color: #303031;
+}
+
+
+/* right footer side */
+
+.right-footer{
+flex: 1;
+padding: 10px;
+position: relative;
+}
+
+/* right footer top side */
+.footer-top{
+    width: 560px;
+    height: 164px;
+    border-radius: 16px;
+    border: 4px solid #303031;
+    padding: 24px;
+    position: absolute;
+}
+
+.flex-d{
+    display: flex;
+}
+
+.share-link{
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    background: #71A894;
+    text-align: center;   
+    text-decoration: none;
+    color: #FFFFFF;
+    
+height: 32px;
+width: 80px;
+left: 430px;
+top: 0px;
+border-radius: 40px;
+padding: 4px, 8px, 4px, 8px;
+
+
+}
+.footer-title-2{
+    flex-basis: 70%;
+    height: 24px;
+width: 257px;
+left: 0px;
+top: 4px;
+font-family: Roboto Slab;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #71A894;
+
+}
+
+
+/* footer right bottom side */
+
+.appli2{
+    display: flex;
+    width: 100%;
+   position: relative;
+   top: 48px;
+   
+
+}
+.applicants1{
+flex-basis: 50%;
+
+position: absolute;
+    width: 381px;
+    height: 288px;
+    left: 7px;
+    top: 188px;
+    
+    /* Light Gold */
+    
+    background: #F3F0EA;
+    /* Black */
+    
+    border: 4px solid #303031;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.applicant-1{
+    display: flex;
+}
+
+
+.applicant2{
+    position: absolute;
+width: 240px;
+height: 288px;
+left: 400px;
+top: 212px;
+
+/* White */
+
+background: #FFFFFF;
+/* Green */
+
+border: 4px solid #71A894;
+box-sizing: border-box;
+border-radius: 16px;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+
+.starxx{
+    height: 40px;
+width: 40px;
+left: 40px;
+top: 24px;
+border-radius: 0px;
+position: relative;
+}
+
+.starx{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 112px;
+    top: 30px;
+    
+    /* Yellow */
+    
+    background:none;
+    border-radius: 1px;
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.applicant3{
+    position: relative;
+    height: 32px;
+width: 134px;
+left: 40px;
+top: 32px;
+
+
+}
+
+.app-name{
+    position: relative;
+width: 116px;
+height: 24px;
+left: 56px;
+top: 8px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+letter-spacing: -0.02em;
+
+/* Black */
+
+color: #303031;
+}
+
+.digt{
+    position: relative;
+width: 28px;
+height: 24px;
+left: 120px;
+top: 10px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+
+
+.star1{
+    height: 72px;
+width: 72px;
+margin-top: 10px;
+
+
+}
+.commits{
+    display: flex;
+}
+.starx2{
+    height: 24px;
+width: 24px;
+position: relative;
+left: 70px;
+top: -10px;
+
+}
+.dgt{
+    position: relative;
+    
+    height: 24px;
+width: 27px;
+left: 72px;
+top: -25px;
+
+
+}
+.ux{
+    position: relative;
+    top: -10px;
+}
+.comm4{
+    position: relative;
+    top: -25px;
+    left: 20px;
+}
+.vp{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 12px 24px;
+
+position: absolute;
+width: 192px;
+height: 44px;
+left: calc(50% - 192px/2);
+bottom: 24px;
+color: #FFFFFF;
+
+/* Black */
+
+background: #303031;
+border-radius: 16px;
+}
+
