@@ -231,6 +231,15 @@
       "Experience Level in OSS": "Advanced", 
       "Twitter Handle": "@ejilolahmed", 
       "Which niche do you like contributing too?": "Documentation or code" 
+    },
+    {
+      "Name": "Jonathan Cardoz",
+      "Nickname": "jcardoz",
+      "Tech Stack": "Frontend",
+      "Experience Level in OSS": "Intermediate",
+      "Twitter Handle": "@jcardoz",
+      "GitHub Profile": "https://github.com/jcardoz",
+      "Which niche do you like contributing too?": "Frontend, Styling and Coding standards"
     }
   ]
 }
