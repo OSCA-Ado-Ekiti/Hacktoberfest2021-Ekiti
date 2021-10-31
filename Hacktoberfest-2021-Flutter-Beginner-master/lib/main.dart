@@ -28,7 +28,7 @@ Widget getListView() {
 }
 ListTile(                            
   leading: Icon(Icons.bubble_chart), 
-  title: Text("Tribes of Europa"),
+  title: Text("SCREAM"),
   subtitle: Text("Netflix"),
   trailing: Icon(Icons.bubble_chart),
 ),            
