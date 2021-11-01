@@ -1,4 +1,4 @@
-/** contribution by https://github.com/larrick12 */
+/** contribution by https://github.com/larrick12 */ 
 
 const githubLink = "https://raw.githubusercontent.com/OSCA-Ado-Ekiti/Hacktoberfest2021-Ekiti/main/participants.json";
 
@@ -8,57 +8,24 @@ $(document).ready(() => {
         $('body, html').animate({
             scrollTop: $('#' + $(this).data('value')).offset().top
         }, 1000)
-    });
-
-
-    $('#toggler').on('click', () => {
-        if ($('#navIc').hasClass('fa-bars')) {
-            $('.nav-list').slideDown('slow');
-            $('#navIc').removeClass('fa fa-bars')
-                .addClass('fas fa-times');
-        } else {
-            $('.nav-list').slideUp('slow');
-            $('#navIc').removeClass('fas fa-times')
-                .addClass('fa fa-bars');
-        }
-    });
-
+    })
 
     $.getJSON(githubLink, (res) => {
         let data = res.participants;
 
         $('#totalPart').html(`TOTAL CONTRIBUTORS ${data.length}`);
 
-
-        function windowSizeChecker() {
-
-            let slicedContent  = [];
-
-            if (window.innerWidth >= 768) {
-                $(window).on('resize', () => {
-                    location.reload();
-                })
-                return slicedContent = data.slice(0, 8);
-            } else if (window.innerWidth <= 425) {
-                $(window).on('resize', () => {
-                    location.reload();
-                })
-                return slicedContent = data.slice(0, 4);
-            }
-            return slicedContent;
-        }
-
-        windowSizeChecker().map((e, i) => {
+        data.map((e, i) => {
             // get github user profile image / icon
             let participantAvatar = `${e["GitHub Profile"]}.png`
 
             $('#participantContainer')
                 .append(`
-                    <div class="cardData" id="cardData${i}" name="${e.Name}">
-                        <div class="data-box" id="card${i}" style='background-image: url(${participantAvatar})'></div>
-                        <span class="contributorName" id="cbName${i}" >${e.Name}</span>
-                    </div>
-                    `)
+                <div class="cardData" id="cardData${i}" name="${e.Name}">
+                    <div class="data-box" id="card${i}" style='background-image: url(${participantAvatar})'></div>
+                    <span class="contributorName" id="cbName${i}" >${e.Name}</span>
+                </div>
+                `)
 
             $(`#cardData${i}`).hover(function (e) {
                 $(`#details${i}`).toggle()
@@ -66,17 +33,16 @@ $(document).ready(() => {
             })
 
             $(`<div class="contributorDetails" id="details${i}">
-                        <span>Name: ${e.Name}</span><br/>
-                        <span>Nickname: ${e.Nickname}</span><br/>
-                        <span>Tech Stack: ${e["Tech Stack"]}</span><br/>
-                        <span>Experience Level in OSS: ${e["Experience Level in OSS"]}</span><br/>
-                        <span>Twitter Handle: ${e["Twitter Handle"]}</span><br/>
-                        <span>GitHub Profile: ${e["GitHub Profile"]}</span><br/>
-                        <span>Which niche do you like contributing too?: ${e["Which niche do you like contributing too?"]}</span> 
-                </div>`).appendTo(`#cardData${i}`)
+                    <span>Name: ${e.Name}</span><br/>
+                    <span>Nickname: ${e.Nickname}</span><br/>
+                    <span>Tech Stack: ${e["Tech Stack"]}</span><br/>
+                    <span>Experience Level in OSS: ${e["Experience Level in OSS"]}</span><br/>
+                    <span>Twitter Handle: ${e["Twitter Handle"]}</span><br/>
+                    <span>GitHub Profile: ${e["GitHub Profile"]}</span><br/>
+                    <span>Which niche do you like contributing too?: ${e["Which niche do you like contributing too?"]}</span> 
+            </div>`).appendTo(`#cardData${i}`)
 
         })
-
 
         // contributor story members
         function groupOfThree([a, b, c, ...rest]) {
@@ -120,7 +86,7 @@ $(document).ready(() => {
 
             let num = [$('.board').attr('id')].indexOf(e.target.id);
             swap(0, num)
-        });
+        })
         // }
 
         // changeStack()
